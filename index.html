@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-12-10 Sat 19:59 -->
+<!-- 2022-12-11 Sun 13:40 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Data Structures and Algorithms</title>
@@ -222,143 +222,144 @@ org_html_manager.setup();  // activate after the parameters are set
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org96138f3">1. Advent of Code&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_AoC">@AoC</span></span></a>
+<li><a href="#org113f5d1">1. Advent of Code&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_AoC">@AoC</span></span></a>
 <ul>
-<li><a href="#orgac9755b">1.1. 2015</a>
+<li><a href="#org9078342">1.1. 2015</a>
 <ul>
-<li><a href="#org2c02818">1.1.1. Day 1: Not Quite Lisp</a></li>
-<li><a href="#orga4f92cc">1.1.2. Day 2: I Was Told There Would Be No Math</a></li>
-<li><a href="#orgd4fc08e">1.1.3. Day 3: Perfectly Spherical Houses in a Vacuum</a></li>
-<li><a href="#orga87dc4e">1.1.4. Day 4: The Ideal Stocking Stuffer</a></li>
-<li><a href="#org7d8fc98">1.1.5. Day 5: Doesn&rsquo;t He Have Intern-Elves For This?</a></li>
-<li><a href="#orgd1b88d5">1.1.6. Day 6: Probably a Fire Hazard</a></li>
-<li><a href="#org8cd0739">1.1.7. Day 7: Some Assembly Required</a></li>
+<li><a href="#org221cfcb">1.1.1. Day 1: Not Quite Lisp</a></li>
+<li><a href="#org5d140c1">1.1.2. Day 2: I Was Told There Would Be No Math</a></li>
+<li><a href="#org34694f1">1.1.3. Day 3: Perfectly Spherical Houses in a Vacuum</a></li>
+<li><a href="#orgcfa1b2b">1.1.4. Day 4: The Ideal Stocking Stuffer</a></li>
+<li><a href="#orgb0b1742">1.1.5. Day 5: Doesn&rsquo;t He Have Intern-Elves For This?</a></li>
+<li><a href="#orgfd510bd">1.1.6. Day 6: Probably a Fire Hazard</a></li>
+<li><a href="#orgd526146">1.1.7. Day 7: Some Assembly Required</a></li>
 </ul>
 </li>
-<li><a href="#orgf29ad12">1.2. 2016</a>
+<li><a href="#orga343d5f">1.2. 2016</a>
 <ul>
-<li><a href="#orgf650c59">1.2.1. Day 1: No Time for a Taxicab</a></li>
-<li><a href="#org7c2c860">1.2.2. <span class="todo TODO">TODO</span> Day 2: Bathroom Security</a></li>
+<li><a href="#org74a3403">1.2.1. Day 1: No Time for a Taxicab</a></li>
+<li><a href="#org6b46688">1.2.2. <span class="todo TODO">TODO</span> Day 2: Bathroom Security</a></li>
 </ul>
 </li>
-<li><a href="#org7d0775a">1.3. 2017</a>
+<li><a href="#orge45ed41">1.3. 2017</a>
 <ul>
-<li><a href="#org847f6cf">1.3.1. Day 1: Inverse Captcha</a></li>
-<li><a href="#org50c5146">1.3.2. Day 2: Corruption Checksum</a></li>
-<li><a href="#org885b575">1.3.3. <span class="todo TODO">TODO</span> Day 3: Spiral Memory</a></li>
+<li><a href="#org8782ca6">1.3.1. Day 1: Inverse Captcha</a></li>
+<li><a href="#org7e52871">1.3.2. Day 2: Corruption Checksum</a></li>
+<li><a href="#org303f7e3">1.3.3. <span class="todo TODO">TODO</span> Day 3: Spiral Memory</a></li>
 </ul>
 </li>
-<li><a href="#org2c1e05c">1.4. 2018</a>
+<li><a href="#orgdba293a">1.4. 2018</a>
 <ul>
-<li><a href="#org4ed0057">1.4.1. Day 1: Chronal Calibration</a></li>
+<li><a href="#org1316529">1.4.1. Day 1: Chronal Calibration</a></li>
 </ul>
 </li>
-<li><a href="#orgc558ffd">1.5. 2021</a>
+<li><a href="#org0e4f2da">1.5. 2021</a>
 <ul>
-<li><a href="#org16583b0">1.5.1. Day 1: Sonar Sweep</a></li>
-<li><a href="#org5cf56f1">1.5.2. Day 1: Sonar Sweep</a></li>
+<li><a href="#orgf246eac">1.5.1. Day 1: Sonar Sweep</a></li>
+<li><a href="#org1f78427">1.5.2. Day 1: Sonar Sweep</a></li>
 </ul>
 </li>
-<li><a href="#orgbbb2144">1.6. 2022</a>
+<li><a href="#orgfba42dd">1.6. 2022</a>
 <ul>
-<li><a href="#org9013e94">1.6.1. Day 1: Calorie Counting</a></li>
-<li><a href="#orgb452f0f">1.6.2. Day 2: Rock Paper Scissors</a></li>
-<li><a href="#orgc8a8a89">1.6.3. Day 3: Rucksack Reorganization</a></li>
-<li><a href="#orgf6280b3">1.6.4. Day 4: Camp Cleanup</a></li>
-<li><a href="#orgaf76f69">1.6.5. Day 5: Supply Stacks</a></li>
-<li><a href="#orge04bb2c">1.6.6. Day 6: Tuning Trouble</a></li>
-<li><a href="#org6343db3">1.6.7. Day 7: No Space Left On Device</a></li>
-<li><a href="#org42ac40b">1.6.8. Day 8: Treetop Tree House</a></li>
-<li><a href="#org103dbcb">1.6.9. Day 9: Rope Bridge</a></li>
-<li><a href="#orge1dc9f7">1.6.10. Day 10: Cathode-Ray Tube</a></li>
+<li><a href="#orgd4bf825">1.6.1. Day 1: Calorie Counting</a></li>
+<li><a href="#org0130ed2">1.6.2. Day 2: Rock Paper Scissors</a></li>
+<li><a href="#org5da0494">1.6.3. Day 3: Rucksack Reorganization</a></li>
+<li><a href="#orgd65fe60">1.6.4. Day 4: Camp Cleanup</a></li>
+<li><a href="#orgc56a122">1.6.5. Day 5: Supply Stacks</a></li>
+<li><a href="#org753aa89">1.6.6. Day 6: Tuning Trouble</a></li>
+<li><a href="#orgf483022">1.6.7. Day 7: No Space Left On Device</a></li>
+<li><a href="#org7b542a3">1.6.8. Day 8: Treetop Tree House</a></li>
+<li><a href="#orgc3ba286">1.6.9. Day 9: Rope Bridge</a></li>
+<li><a href="#orgf1892ad">1.6.10. Day 10: Cathode-Ray Tube</a></li>
+<li><a href="#org8d6561b">1.6.11. Day 11: Monkey in the Middle</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org84430d9">2. Leetcode&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_LeetCode">@LeetCode</span></span></a>
+<li><a href="#orgc05f62e">2. Leetcode&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_LeetCode">@LeetCode</span></span></a>
 <ul>
-<li><a href="#orgb3397e8">2.1. Two sum&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
+<li><a href="#org2412a00">2.1. Two sum&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
 <ul>
-<li><a href="#org42d723d">2.1.1. Description</a></li>
-<li><a href="#org5c6e30b">2.1.2. Solution</a></li>
+<li><a href="#org76db7d2">2.1.1. Description</a></li>
+<li><a href="#orgc54caed">2.1.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#orgf0274b5">2.2. Valid Parentheses&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
+<li><a href="#org146b5b3">2.2. Valid Parentheses&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
 <ul>
-<li><a href="#org9d4d073">2.2.1. Description</a></li>
-<li><a href="#orga65369d">2.2.2. Solution</a></li>
+<li><a href="#orgdc4682f">2.2.1. Description</a></li>
+<li><a href="#org199b160">2.2.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#org4e0095b">2.3. Palindrome Number&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span></span></a>
+<li><a href="#org969e52a">2.3. Palindrome Number&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span></span></a>
 <ul>
-<li><a href="#orgfaa8a67">2.3.1. Description</a></li>
-<li><a href="#org0da2cc9">2.3.2. Solution</a></li>
+<li><a href="#org6965bb7">2.3.1. Description</a></li>
+<li><a href="#orgdd1f6c6">2.3.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#org0f5dfc5">2.4. Move Zeroes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
+<li><a href="#org007a936">2.4. Move Zeroes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
 <ul>
-<li><a href="#org7a07519">2.4.1. Description</a></li>
-<li><a href="#orgeace954">2.4.2. Solution</a></li>
+<li><a href="#orgd5decf7">2.4.1. Description</a></li>
+<li><a href="#orgc3e29da">2.4.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#org930217b">2.5. Merge Sorted Array&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="easy">easy</span></span></a>
+<li><a href="#org5b58403">2.5. Merge Sorted Array&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="easy">easy</span></span></a>
 <ul>
-<li><a href="#org63c8b10">2.5.1. Description</a></li>
-<li><a href="#orgc956dde">2.5.2. Solution</a></li>
+<li><a href="#org3c61506">2.5.1. Description</a></li>
+<li><a href="#org03f6e57">2.5.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#org6115042">2.6. Decode the Message&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span></span></a>
+<li><a href="#org10145fc">2.6. Decode the Message&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span></span></a>
 <ul>
-<li><a href="#org11eaf45">2.6.1. Description</a></li>
-<li><a href="#orgf97de0e">2.6.2. Solution</a></li>
+<li><a href="#org7c8c5c6">2.6.1. Description</a></li>
+<li><a href="#org4a7dd49">2.6.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#org3f5856f">2.7. Pascal&rsquo;s Triangle&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
+<li><a href="#org5218246">2.7. Pascal&rsquo;s Triangle&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
 <ul>
-<li><a href="#orgb365d52">2.7.1. Description</a></li>
-<li><a href="#org22e1f41">2.7.2. Solution</a></li>
+<li><a href="#org8b384a1">2.7.1. Description</a></li>
+<li><a href="#orgb6cacb1">2.7.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#org8045c83">2.8. Roman to Integer&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
+<li><a href="#org86110d1">2.8. Roman to Integer&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
 <ul>
-<li><a href="#org453bf8c">2.8.1. Description</a></li>
-<li><a href="#org4624d1e">2.8.2. Solution</a></li>
+<li><a href="#orga0917f8">2.8.1. Description</a></li>
+<li><a href="#org48947c5">2.8.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#org55c770e">2.9. Merge Two Sorted Lists&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="easy">easy</span></span></a>
+<li><a href="#orged4bcf7">2.9. Merge Two Sorted Lists&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="easy">easy</span></span></a>
 <ul>
-<li><a href="#orgee51dfa">2.9.1. Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></a></li>
-<li><a href="#org179896b">2.9.2. Solution</a></li>
+<li><a href="#org375f774">2.9.1. Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></a></li>
+<li><a href="#org7333136">2.9.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#org2377290">2.10. Binary Tree Inorder Traversal&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="easy">easy</span></span></a>
+<li><a href="#org1edb715">2.10. Binary Tree Inorder Traversal&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="easy">easy</span></span></a>
 <ul>
-<li><a href="#orge952444">2.10.1. Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></a></li>
-<li><a href="#org39fb89e">2.10.2. Solution</a></li>
+<li><a href="#orgda8b26b">2.10.1. Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></a></li>
+<li><a href="#orged891dd">2.10.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#org7edf928">2.11. Convert Sorted Array to Binary Search Tree&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
+<li><a href="#org62e3e08">2.11. Convert Sorted Array to Binary Search Tree&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
 <ul>
-<li><a href="#org3d3a714">2.11.1. Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></a></li>
-<li><a href="#org3e9ed63">2.11.2. Solution</a></li>
+<li><a href="#org1338a13">2.11.1. Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></a></li>
+<li><a href="#orge9fae66">2.11.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#org360f659">2.12. Permutations&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="medium">medium</span></span></a>
+<li><a href="#org69883fc">2.12. Permutations&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="medium">medium</span></span></a>
 <ul>
-<li><a href="#org0e3b933">2.12.1. Description</a></li>
-<li><a href="#orgbdcd371">2.12.2. Solution</a></li>
+<li><a href="#org1b02b5f">2.12.1. Description</a></li>
+<li><a href="#org488bf87">2.12.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#org1ccb836">2.13. Rotate Image&#xa0;&#xa0;&#xa0;<span class="tag"><span class="medium">medium</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
+<li><a href="#org3e54fd5">2.13. Rotate Image&#xa0;&#xa0;&#xa0;<span class="tag"><span class="medium">medium</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></a>
 <ul>
-<li><a href="#org254fafe">2.13.1. Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></a></li>
-<li><a href="#org028869f">2.13.2. Solution</a></li>
+<li><a href="#org8e4316e">2.13.1. Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></a></li>
+<li><a href="#orgc5b20d2">2.13.2. Solution</a></li>
 </ul>
 </li>
-<li><a href="#orgac19849">2.14. Container With Most Water&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="medium">medium</span></span></a>
+<li><a href="#org0bff711">2.14. Container With Most Water&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="medium">medium</span></span></a>
 <ul>
-<li><a href="#org0d14217">2.14.1. Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></a></li>
-<li><a href="#orga1e1a93">2.14.2. Solution</a></li>
+<li><a href="#org116900e">2.14.1. Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></a></li>
+<li><a href="#org3ffc978">2.14.2. Solution</a></li>
 </ul>
 </li>
 </ul>
@@ -372,20 +373,20 @@ org_html_manager.setup();  // activate after the parameters are set
 }
 </style>
 
-<div id="outline-container-org96138f3" class="outline-2">
-<h2 id="org96138f3"><span class="section-number-2">1.</span> Advent of Code&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_AoC">@AoC</span></span></h2>
+<div id="outline-container-org113f5d1" class="outline-2">
+<h2 id="org113f5d1"><span class="section-number-2">1.</span> Advent of Code&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_AoC">@AoC</span></span></h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-orgac9755b" class="outline-3">
-<h3 id="orgac9755b"><span class="section-number-3">1.1.</span> 2015</h3>
+<div id="outline-container-org9078342" class="outline-3">
+<h3 id="org9078342"><span class="section-number-3">1.1.</span> 2015</h3>
 <div class="outline-text-3" id="text-1-1">
 </div>
-<div id="outline-container-org2c02818" class="outline-4">
-<h4 id="org2c02818"><span class="section-number-4">1.1.1.</span> <a href="https://adventofcode.com/2015/day/1">Day 1: Not Quite Lisp</a></h4>
+<div id="outline-container-org221cfcb" class="outline-4">
+<h4 id="org221cfcb"><span class="section-number-4">1.1.1.</span> <a href="https://adventofcode.com/2015/day/1">Day 1: Not Quite Lisp</a></h4>
 <div class="outline-text-4" id="text-1-1-1">
 </div>
 <ol class="org-ol">
-<li><a id="orge595afa"></a>Description<br />
+<li><a id="org20bed35"></a>Description<br />
 <div class="outline-text-5" id="text-1-1-1-1">
 <p>
 Santa was hoping for a white Christmas, but his weather machine&rsquo;s &ldquo;snow&rdquo; function is powered by stars, and he&rsquo;s fresh out! To save Christmas, he needs you to collect fifty stars by December 25th.
@@ -453,7 +454,7 @@ Your puzzle answer was 1771.
 </p>
 </div>
 </li>
-<li><a id="org31d278c"></a>Solution<br />
+<li><a id="org2bd5297"></a>Solution<br />
 <div class="outline-text-5" id="text-1-1-1-2">
 <ul class="org-ul">
 <li><p>
@@ -512,12 +513,12 @@ Part 2
 </li>
 </ol>
 </div>
-<div id="outline-container-orga4f92cc" class="outline-4">
-<h4 id="orga4f92cc"><span class="section-number-4">1.1.2.</span> <a href="https://adventofcode.com/2015/day/2">Day 2: I Was Told There Would Be No Math</a></h4>
+<div id="outline-container-org5d140c1" class="outline-4">
+<h4 id="org5d140c1"><span class="section-number-4">1.1.2.</span> <a href="https://adventofcode.com/2015/day/2">Day 2: I Was Told There Would Be No Math</a></h4>
 <div class="outline-text-4" id="text-1-1-2">
 </div>
 <ol class="org-ol">
-<li><a id="org63de932"></a>Description<br />
+<li><a id="org6a68edd"></a>Description<br />
 <div class="outline-text-5" id="text-1-1-2-1">
 <p>
 The elves are running low on wrapping paper, and so they need to submit an order for more. They have a list of the dimensions (length l, width w, and height h) of each present, and only want to order exactly as much as they need.
@@ -572,7 +573,7 @@ Your puzzle answer was 3737498.
 </div>
 </li>
 
-<li><a id="orgb3c6c12"></a>Solution<br />
+<li><a id="orgb93be4f"></a>Solution<br />
 <div class="outline-text-5" id="text-1-1-2-2">
 <ul class="org-ul">
 <li><p>
@@ -631,12 +632,12 @@ Part 2
 </li>
 </ol>
 </div>
-<div id="outline-container-orgd4fc08e" class="outline-4">
-<h4 id="orgd4fc08e"><span class="section-number-4">1.1.3.</span> <a href="https://adventofcode.com/2015/day/3">Day 3: Perfectly Spherical Houses in a Vacuum</a></h4>
+<div id="outline-container-org34694f1" class="outline-4">
+<h4 id="org34694f1"><span class="section-number-4">1.1.3.</span> <a href="https://adventofcode.com/2015/day/3">Day 3: Perfectly Spherical Houses in a Vacuum</a></h4>
 <div class="outline-text-4" id="text-1-1-3">
 </div>
 <ol class="org-ol">
-<li><a id="org7def03f"></a>Description<br />
+<li><a id="orgbb8a6f2"></a>Description<br />
 <div class="outline-text-5" id="text-1-1-3-1">
 <p>
 Santa is delivering presents to an infinite two-dimensional grid of houses.
@@ -696,7 +697,7 @@ Your puzzle answer was 2360.
 </p>
 </div>
 </li>
-<li><a id="org45610ce"></a>Solution<br />
+<li><a id="org78e3e43"></a>Solution<br />
 <div class="outline-text-5" id="text-1-1-3-2">
 <ul class="org-ul">
 <li><p>
@@ -785,12 +786,12 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-orga87dc4e" class="outline-4">
-<h4 id="orga87dc4e"><span class="section-number-4">1.1.4.</span> <a href="https://adventofcode.com/2015/day/4">Day 4: The Ideal Stocking Stuffer</a></h4>
+<div id="outline-container-orgcfa1b2b" class="outline-4">
+<h4 id="orgcfa1b2b"><span class="section-number-4">1.1.4.</span> <a href="https://adventofcode.com/2015/day/4">Day 4: The Ideal Stocking Stuffer</a></h4>
 <div class="outline-text-4" id="text-1-1-4">
 </div>
 <ol class="org-ol">
-<li><a id="org64abd36"></a>Description<br />
+<li><a id="orgc19cc52"></a>Description<br />
 <div class="outline-text-5" id="text-1-1-4-1">
 <p>
 Santa needs help mining some AdventCoins (very similar to bitcoins) to use as gifts for all the economically forward-thinking little girls and boys.
@@ -823,7 +824,7 @@ Your puzzle answer was 3938038.
 </p>
 </div>
 </li>
-<li><a id="orgf7fe66a"></a>Solution<br />
+<li><a id="org77a445e"></a>Solution<br />
 <div class="outline-text-5" id="text-1-1-4-2">
 <ul class="org-ul">
 <li><p>
@@ -877,12 +878,12 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-org7d8fc98" class="outline-4">
-<h4 id="org7d8fc98"><span class="section-number-4">1.1.5.</span> <a href="https://adventofcode.com/2015/day/5">Day 5: Doesn&rsquo;t He Have Intern-Elves For This?</a></h4>
+<div id="outline-container-orgb0b1742" class="outline-4">
+<h4 id="orgb0b1742"><span class="section-number-4">1.1.5.</span> <a href="https://adventofcode.com/2015/day/5">Day 5: Doesn&rsquo;t He Have Intern-Elves For This?</a></h4>
 <div class="outline-text-4" id="text-1-1-5">
 </div>
 <ol class="org-ol">
-<li><a id="orgc8ff38d"></a>Description<br />
+<li><a id="orged606d6"></a>Description<br />
 <div class="outline-text-5" id="text-1-1-5-1">
 <p>
 Santa needs help figuring out which strings in his text file are naughty or nice.
@@ -940,7 +941,7 @@ Your puzzle answer was 55.
 </p>
 </div>
 </li>
-<li><a id="org14c8d01"></a>Solution<br />
+<li><a id="org24d02c2"></a>Solution<br />
 <div class="outline-text-5" id="text-1-1-5-2">
 <ul class="org-ul">
 <li><p>
@@ -1027,12 +1028,12 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-orgd1b88d5" class="outline-4">
-<h4 id="orgd1b88d5"><span class="section-number-4">1.1.6.</span> <a href="https://adventofcode.com/2015/day/6">Day 6: Probably a Fire Hazard</a></h4>
+<div id="outline-container-orgfd510bd" class="outline-4">
+<h4 id="orgfd510bd"><span class="section-number-4">1.1.6.</span> <a href="https://adventofcode.com/2015/day/6">Day 6: Probably a Fire Hazard</a></h4>
 <div class="outline-text-4" id="text-1-1-6">
 </div>
 <ol class="org-ol">
-<li><a id="orgb566abb"></a>Description<br />
+<li><a id="org7fa9df4"></a>Description<br />
 <div class="outline-text-5" id="text-1-1-6-1">
 <p>
 Because your neighbors keep defeating you in the holiday house decorating contest year after year, you&rsquo;ve decided to deploy one million lights in a 1000x1000 grid.
@@ -1107,7 +1108,7 @@ Your puzzle answer was 14687245.
 </div>
 </li>
 
-<li><a id="org0bcffec"></a>Solution<br />
+<li><a id="org0d6d95f"></a>Solution<br />
 <div class="outline-text-5" id="text-1-1-6-2">
 <ul class="org-ul">
 <li><p>
@@ -1226,13 +1227,13 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-org8cd0739" class="outline-4">
-<h4 id="org8cd0739"><span class="section-number-4">1.1.7.</span> <a href="https://adventofcode.com/2015/day/7">Day 7: Some Assembly Required</a></h4>
+<div id="outline-container-orgd526146" class="outline-4">
+<h4 id="orgd526146"><span class="section-number-4">1.1.7.</span> <a href="https://adventofcode.com/2015/day/7">Day 7: Some Assembly Required</a></h4>
 <div class="outline-text-4" id="text-1-1-7">
 </div>
 <ol class="org-ol">
-<li><a id="orgfb94e91"></a>Description<br /></li>
-<li><a id="orge13b938"></a>Solution<br />
+<li><a id="orgbe85899"></a>Description<br /></li>
+<li><a id="org70dbd7c"></a>Solution<br />
 <div class="outline-text-5" id="text-1-1-7-2">
 <ul class="org-ul">
 <li><p>
@@ -1450,16 +1451,16 @@ Part 2
 </ol>
 </div>
 </div>
-<div id="outline-container-orgf29ad12" class="outline-3">
-<h3 id="orgf29ad12"><span class="section-number-3">1.2.</span> 2016</h3>
+<div id="outline-container-orga343d5f" class="outline-3">
+<h3 id="orga343d5f"><span class="section-number-3">1.2.</span> 2016</h3>
 <div class="outline-text-3" id="text-1-2">
 </div>
-<div id="outline-container-orgf650c59" class="outline-4">
-<h4 id="orgf650c59"><span class="section-number-4">1.2.1.</span> <a href="https://adventofcode.com/2016/day/1">Day 1: No Time for a Taxicab</a></h4>
+<div id="outline-container-org74a3403" class="outline-4">
+<h4 id="org74a3403"><span class="section-number-4">1.2.1.</span> <a href="https://adventofcode.com/2016/day/1">Day 1: No Time for a Taxicab</a></h4>
 <div class="outline-text-4" id="text-1-2-1">
 </div>
 <ol class="org-ol">
-<li><a id="orgf0828af"></a>Description<br />
+<li><a id="org51ac8ef"></a>Description<br />
 <div class="outline-text-5" id="text-1-2-1-1">
 <p>
 Santa&rsquo;s sleigh uses a very high-precision clock to guide its movements, and the clock&rsquo;s oscillator is regulated by stars. Unfortunately, the stars have been stolen&#x2026; by the Easter Bunny. To save Christmas, Santa needs you to retrieve all fifty stars by December 25th.
@@ -1517,7 +1518,7 @@ Your puzzle answer was 140.
 </p>
 </div>
 </li>
-<li><a id="orge5a8ba5"></a>Solution<br />
+<li><a id="org4cde51e"></a>Solution<br />
 <div class="outline-text-5" id="text-1-2-1-2">
 <ul class="org-ul">
 <li><p>
@@ -1604,13 +1605,13 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-org7c2c860" class="outline-4">
-<h4 id="org7c2c860"><span class="section-number-4">1.2.2.</span> <span class="todo TODO">TODO</span> <a href="https://adventofcode.com/2016/day/2">Day 2: Bathroom Security</a></h4>
+<div id="outline-container-org6b46688" class="outline-4">
+<h4 id="org6b46688"><span class="section-number-4">1.2.2.</span> <span class="todo TODO">TODO</span> <a href="https://adventofcode.com/2016/day/2">Day 2: Bathroom Security</a></h4>
 <div class="outline-text-4" id="text-1-2-2">
 </div>
 <ol class="org-ol">
-<li><a id="orgcf622d8"></a>Description<br /></li>
-<li><a id="org99b4642"></a>Solution<br />
+<li><a id="org3c656c7"></a>Description<br /></li>
+<li><a id="orgec7d4ed"></a>Solution<br />
 <div class="outline-text-5" id="text-1-2-2-2">
 <ul class="org-ul">
 <li><p>
@@ -1703,16 +1704,16 @@ Part 2
 </ol>
 </div>
 </div>
-<div id="outline-container-org7d0775a" class="outline-3">
-<h3 id="org7d0775a"><span class="section-number-3">1.3.</span> 2017</h3>
+<div id="outline-container-orge45ed41" class="outline-3">
+<h3 id="orge45ed41"><span class="section-number-3">1.3.</span> 2017</h3>
 <div class="outline-text-3" id="text-1-3">
 </div>
-<div id="outline-container-org847f6cf" class="outline-4">
-<h4 id="org847f6cf"><span class="section-number-4">1.3.1.</span> <a href="https://adventofcode.com/2017/day/1">Day 1: Inverse Captcha</a></h4>
+<div id="outline-container-org8782ca6" class="outline-4">
+<h4 id="org8782ca6"><span class="section-number-4">1.3.1.</span> <a href="https://adventofcode.com/2017/day/1">Day 1: Inverse Captcha</a></h4>
 <div class="outline-text-4" id="text-1-3-1">
 </div>
 <ol class="org-ol">
-<li><a id="orgd87c442"></a>Description<br />
+<li><a id="org816277b"></a>Description<br />
 <div class="outline-text-5" id="text-1-3-1-1">
 <p>
 The night before Christmas, one of Santa&rsquo;s Elves calls you in a panic. &ldquo;The printer&rsquo;s broken! We can&rsquo;t print the Naughty or Nice List!&rdquo; By the time you make it to sub-basement 17, there are only a few minutes until midnight. &ldquo;We have a big problem,&rdquo; she says; &ldquo;there must be almost fifty bugs in this system, but nothing else can print The List. Stand in this square, quick! There&rsquo;s no time to explain; if you can convince them to pay you in stars, you&rsquo;ll be able to&#x2013;&rdquo; She pulls a lever and the world goes blurry.
@@ -1789,7 +1790,7 @@ Your puzzle answer was 1356.
 </li>
 
 
-<li><a id="orgabe3155"></a>Solution<br />
+<li><a id="org01afafc"></a>Solution<br />
 <div class="outline-text-5" id="text-1-3-1-2">
 <ul class="org-ul">
 <li><p>
@@ -1849,12 +1850,12 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-org50c5146" class="outline-4">
-<h4 id="org50c5146"><span class="section-number-4">1.3.2.</span> <a href="https://adventofcode.com/2017/day/2">Day 2: Corruption Checksum</a></h4>
+<div id="outline-container-org7e52871" class="outline-4">
+<h4 id="org7e52871"><span class="section-number-4">1.3.2.</span> <a href="https://adventofcode.com/2017/day/2">Day 2: Corruption Checksum</a></h4>
 <div class="outline-text-4" id="text-1-3-2">
 </div>
 <ol class="org-ol">
-<li><a id="org04cfdd6"></a>Description<br />
+<li><a id="orgdbb20b9"></a>Description<br />
 <div class="outline-text-5" id="text-1-3-2-1">
 <p>
 As you walk through the door, a glowing humanoid shape yells in your direction. &ldquo;You there! Your state appears to be idle. Come help us repair the corruption in this spreadsheet - if we take another millisecond, we&rsquo;ll have to display an hourglass cursor!&rdquo;
@@ -1868,7 +1869,7 @@ The spreadsheet consists of rows of apparently-random numbers. To make sure the 
 For example, given the following spreadsheet:
 </p>
 
-<pre class="example" id="org54fecf4">
+<pre class="example" id="orge9f1de7">
 5 1 9 5
 7 5 3
 2 4 6 8
@@ -1910,7 +1911,7 @@ It sounds like the goal is to find the only two numbers in each row where one ev
 For example, given the following spreadsheet:
 </p>
 
-<pre class="example" id="org2dabb5f">
+<pre class="example" id="org3fbc711">
 5 9 2 8
 9 4 7 3
 3 8 6 5
@@ -1936,7 +1937,7 @@ Your puzzle answer was 233.
 </div>
 </li>
 
-<li><a id="orgf71573b"></a>Solution<br />
+<li><a id="org420cffe"></a>Solution<br />
 <div class="outline-text-5" id="text-1-3-2-2">
 <ul class="org-ul">
 <li><p>
@@ -1994,14 +1995,14 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-org885b575" class="outline-4">
-<h4 id="org885b575"><span class="section-number-4">1.3.3.</span> <span class="todo TODO">TODO</span> <a href="https://adventofcode.com/2017/day/3">Day 3: Spiral Memory</a></h4>
+<div id="outline-container-org303f7e3" class="outline-4">
+<h4 id="org303f7e3"><span class="section-number-4">1.3.3.</span> <span class="todo TODO">TODO</span> <a href="https://adventofcode.com/2017/day/3">Day 3: Spiral Memory</a></h4>
 <div class="outline-text-4" id="text-1-3-3">
 </div>
 <ol class="org-ol">
-<li><a id="org1e87334"></a>Description<br /></li>
+<li><a id="org5545631"></a>Description<br /></li>
 
-<li><a id="orgcaaee6a"></a>Solution<br />
+<li><a id="org1582694"></a>Solution<br />
 <div class="outline-text-5" id="text-1-3-3-2">
 <ul class="org-ul">
 <li><p>
@@ -2059,16 +2060,16 @@ Part 2
 </ol>
 </div>
 </div>
-<div id="outline-container-org2c1e05c" class="outline-3">
-<h3 id="org2c1e05c"><span class="section-number-3">1.4.</span> 2018</h3>
+<div id="outline-container-orgdba293a" class="outline-3">
+<h3 id="orgdba293a"><span class="section-number-3">1.4.</span> 2018</h3>
 <div class="outline-text-3" id="text-1-4">
 </div>
-<div id="outline-container-org4ed0057" class="outline-4">
-<h4 id="org4ed0057"><span class="section-number-4">1.4.1.</span> <a href="https://adventofcode.com/2018/day/1">Day 1: Chronal Calibration</a></h4>
+<div id="outline-container-org1316529" class="outline-4">
+<h4 id="org1316529"><span class="section-number-4">1.4.1.</span> <a href="https://adventofcode.com/2018/day/1">Day 1: Chronal Calibration</a></h4>
 <div class="outline-text-4" id="text-1-4-1">
 </div>
 <ol class="org-ol">
-<li><a id="org81bc3d5"></a>Description<br />
+<li><a id="org0bdb64d"></a>Description<br />
 <div class="outline-text-5" id="text-1-4-1-1">
 <p>
 &ldquo;We&rsquo;ve detected some temporal anomalies,&rdquo; one of Santa&rsquo;s Elves at the Temporal Anomaly Research and Detection Instrument Station tells you. She sounded pretty worried when she called you down here. &ldquo;At 500-year intervals into the past, someone has been changing Santa&rsquo;s history!&rdquo;
@@ -2159,7 +2160,7 @@ Your puzzle answer was 341.
 </p>
 </div>
 </li>
-<li><a id="orgad0a408"></a>Solution<br />
+<li><a id="orgd38adcd"></a>Solution<br />
 <div class="outline-text-5" id="text-1-4-1-2">
 <ul class="org-ul">
 <li><p>
@@ -2212,16 +2213,16 @@ Part 2
 </div>
 </div>
 
-<div id="outline-container-orgc558ffd" class="outline-3">
-<h3 id="orgc558ffd"><span class="section-number-3">1.5.</span> 2021</h3>
+<div id="outline-container-org0e4f2da" class="outline-3">
+<h3 id="org0e4f2da"><span class="section-number-3">1.5.</span> 2021</h3>
 <div class="outline-text-3" id="text-1-5">
 </div>
-<div id="outline-container-org16583b0" class="outline-4">
-<h4 id="org16583b0"><span class="section-number-4">1.5.1.</span> Day 1: Sonar Sweep</h4>
+<div id="outline-container-orgf246eac" class="outline-4">
+<h4 id="orgf246eac"><span class="section-number-4">1.5.1.</span> Day 1: Sonar Sweep</h4>
 <div class="outline-text-4" id="text-1-5-1">
 </div>
 <ol class="org-ol">
-<li><a id="orgce60867"></a>Description<br />
+<li><a id="org5744f89"></a>Description<br />
 <div class="outline-text-5" id="text-1-5-1-1">
 <p>
 You&rsquo;re minding your own business on a ship at sea when the overboard alarm goes off! You rush to see if you can help. Apparently, one of the Elves tripped and accidentally sent the sleigh keys flying into the ocean!
@@ -2326,7 +2327,7 @@ Your goal now is to count the number of times the sum of measurements in this sl
 In the above example, the sum of each three-measurement window is as follows:
 </p>
 
-<pre class="example" id="org2957f92">
+<pre class="example" id="org8fce283">
 A: 607 (N/A - no previous sum)
 B: 618 (increased)
 C: 618 (no change)
@@ -2347,7 +2348,7 @@ Consider sums of a three-measurement sliding window. How many sums are larger th
 </div>
 </li>
 
-<li><a id="orgabb00b3"></a>Solution<br />
+<li><a id="orga9d9384"></a>Solution<br />
 <div class="outline-text-5" id="text-1-5-1-2">
 <ul class="org-ul">
 <li><p>
@@ -2412,12 +2413,12 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-org5cf56f1" class="outline-4">
-<h4 id="org5cf56f1"><span class="section-number-4">1.5.2.</span> Day 1: Sonar Sweep</h4>
+<div id="outline-container-org1f78427" class="outline-4">
+<h4 id="org1f78427"><span class="section-number-4">1.5.2.</span> Day 1: Sonar Sweep</h4>
 <div class="outline-text-4" id="text-1-5-2">
 </div>
 <ol class="org-ol">
-<li><a id="orga7be4a8"></a>Description<br />
+<li><a id="org9d5b0d2"></a>Description<br />
 <div class="outline-text-5" id="text-1-5-2-1">
 <p>
 You&rsquo;re minding your own business on a ship at sea when the overboard alarm goes off! You rush to see if you can help. Apparently, one of the Elves tripped and accidentally sent the sleigh keys flying into the ocean!
@@ -2522,7 +2523,7 @@ Your goal now is to count the number of times the sum of measurements in this sl
 In the above example, the sum of each three-measurement window is as follows:
 </p>
 
-<pre class="example" id="orga0610c4">
+<pre class="example" id="orgfc25fc8">
 A: 607 (N/A - no previous sum)
 B: 618 (increased)
 C: 618 (no change)
@@ -2543,7 +2544,7 @@ Consider sums of a three-measurement sliding window. How many sums are larger th
 </div>
 </li>
 
-<li><a id="org10d82dc"></a>Solution<br />
+<li><a id="org0d3f236"></a>Solution<br />
 <div class="outline-text-5" id="text-1-5-2-2">
 <ul class="org-ul">
 <li><p>
@@ -2609,16 +2610,16 @@ Part 2
 </div>
 </div>
 
-<div id="outline-container-orgbbb2144" class="outline-3">
-<h3 id="orgbbb2144"><span class="section-number-3">1.6.</span> 2022</h3>
+<div id="outline-container-orgfba42dd" class="outline-3">
+<h3 id="orgfba42dd"><span class="section-number-3">1.6.</span> 2022</h3>
 <div class="outline-text-3" id="text-1-6">
 </div>
-<div id="outline-container-org9013e94" class="outline-4">
-<h4 id="org9013e94"><span class="section-number-4">1.6.1.</span> <a href="https://adventofcode.com/2022/day/1">Day 1: Calorie Counting</a></h4>
+<div id="outline-container-orgd4bf825" class="outline-4">
+<h4 id="orgd4bf825"><span class="section-number-4">1.6.1.</span> <a href="https://adventofcode.com/2022/day/1">Day 1: Calorie Counting</a></h4>
 <div class="outline-text-4" id="text-1-6-1">
 </div>
 <ol class="org-ol">
-<li><a id="orgc08e020"></a>Description<br />
+<li><a id="org3a931b2"></a>Description<br />
 <div class="outline-text-5" id="text-1-6-1-1">
 <p>
 Santa&rsquo;s reindeer typically eat regular reindeer food, but they need a lot of magical energy to deliver presents on Christmas. For that, their favorite snack is a special type of star fruit that only grows deep in the jungle. The Elves have brought you on their annual expedition to the grove where the fruit grows.
@@ -2644,7 +2645,7 @@ The Elves take turns writing down the number of Calories contained by the variou
 For example, suppose the Elves finish writing their items&rsquo; Calories and end up with the following list:
 </p>
 
-<pre class="example" id="org0ecd644">
+<pre class="example" id="org5212311">
 1000
 2000
 3000
@@ -2704,7 +2705,7 @@ Your puzzle answer was 198041.
 </p>
 </div>
 </li>
-<li><a id="org38d8469"></a>Solution<br />
+<li><a id="orgb229a13"></a>Solution<br />
 <div class="outline-text-5" id="text-1-6-1-2">
 <ul class="org-ul">
 <li>Part 1</li>
@@ -2768,12 +2769,12 @@ Part 2
 </li>
 </ol>
 </div>
-<div id="outline-container-orgb452f0f" class="outline-4">
-<h4 id="orgb452f0f"><span class="section-number-4">1.6.2.</span> <a href="https://adventofcode.com/2022/day/2">Day 2: Rock Paper Scissors</a></h4>
+<div id="outline-container-org0130ed2" class="outline-4">
+<h4 id="org0130ed2"><span class="section-number-4">1.6.2.</span> <a href="https://adventofcode.com/2022/day/2">Day 2: Rock Paper Scissors</a></h4>
 <div class="outline-text-4" id="text-1-6-2">
 </div>
 <ol class="org-ol">
-<li><a id="org05dda6c"></a>Description<br />
+<li><a id="org0124571"></a>Description<br />
 <div class="outline-text-5" id="text-1-6-2-1">
 <p>
 The Elves begin to set up camp on the beach. To decide whose tent gets to be closest to the snack storage, a giant Rock Paper Scissors tournament is already in progress.
@@ -2803,7 +2804,7 @@ Since you can&rsquo;t be sure if the Elf is trying to help you or trick you, you
 For example, suppose you were given the following strategy guide:
 </p>
 
-<pre class="example" id="orgb6e1561">
+<pre class="example" id="org2ffde2f">
 A Y
 B X
 C Z
@@ -2854,7 +2855,7 @@ Your puzzle answer was 12014.
 </div>
 </li>
 
-<li><a id="orgac3626f"></a>Solution<br />
+<li><a id="orgdc5c1bf"></a>Solution<br />
 <div class="outline-text-5" id="text-1-6-2-2">
 <ul class="org-ul">
 <li><p>
@@ -3074,12 +3075,12 @@ fs.readFile(
 </li>
 </ol>
 </div>
-<div id="outline-container-orgc8a8a89" class="outline-4">
-<h4 id="orgc8a8a89"><span class="section-number-4">1.6.3.</span> <a href="https://adventofcode.com/2022/day/3">Day 3: Rucksack Reorganization</a></h4>
+<div id="outline-container-org5da0494" class="outline-4">
+<h4 id="org5da0494"><span class="section-number-4">1.6.3.</span> <a href="https://adventofcode.com/2022/day/3">Day 3: Rucksack Reorganization</a></h4>
 <div class="outline-text-4" id="text-1-6-3">
 </div>
 <ol class="org-ol">
-<li><a id="org4a46160"></a>Description<br />
+<li><a id="org5f8f5de"></a>Description<br />
 <div class="outline-text-5" id="text-1-6-3-1">
 <p>
 One Elf has the important job of loading all of the rucksacks with supplies for the jungle journey. Unfortunately, that Elf didn&rsquo;t quite follow the packing instructions, and so a few items now need to be rearranged.
@@ -3101,7 +3102,7 @@ The list of items for each rucksack is given as characters all on a single line.
 For example, suppose you have the following list of contents from six rucksacks:
 </p>
 
-<pre class="example" id="orge689943">
+<pre class="example" id="orgfc863dc">
 vJrwpWtwJgWrhcsFMMfFFhFp
 jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
 PmmdzqPrVvPwwTWBwg
@@ -3188,7 +3189,7 @@ Your puzzle answer was 2641.
 </p>
 </div>
 </li>
-<li><a id="orgf37c726"></a>Solution<br />
+<li><a id="orgbfee521"></a>Solution<br />
 <div class="outline-text-5" id="text-1-6-3-2">
 <ul class="org-ul">
 <li><p>
@@ -3339,12 +3340,12 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-orgf6280b3" class="outline-4">
-<h4 id="orgf6280b3"><span class="section-number-4">1.6.4.</span> <a href="https://adventofcode.com/2022/day/4">Day 4: Camp Cleanup</a></h4>
+<div id="outline-container-orgd65fe60" class="outline-4">
+<h4 id="orgd65fe60"><span class="section-number-4">1.6.4.</span> <a href="https://adventofcode.com/2022/day/4">Day 4: Camp Cleanup</a></h4>
 <div class="outline-text-4" id="text-1-6-4">
 </div>
 <ol class="org-ol">
-<li><a id="org2e86f8d"></a>Description<br />
+<li><a id="orgf029ae3"></a>Description<br />
 <div class="outline-text-5" id="text-1-6-4-1">
 <p>
 Space needs to be cleared before the last supplies can be unloaded from the ships, and so several Elves have been assigned the job of cleaning up sections of the camp. Every section has a unique <i>ID number</i>, and each Elf is assigned a range of section IDs.
@@ -3358,7 +3359,7 @@ However, as some of the Elves compare their section assignments with each other,
 For example, consider the following list of section assignment pairs:
 </p>
 
-<pre class="example" id="orgf4f9232">
+<pre class="example" id="org693a1ef">
 2-4,6-8
 2-3,4-5
 5-7,7-9
@@ -3381,7 +3382,7 @@ For the first few pairs, this list means:
 This example list uses single-digit section IDs to make it easier to draw; your actual list might contain larger numbers. Visually, these pairs of section assignments look like this:
 </p>
 
-<pre class="example" id="org056ee49">
+<pre class="example" id="orgca31287">
 .234.....  2-4
 .....678.  6-8
 
@@ -3442,7 +3443,7 @@ Your puzzle answer was 801.
 </p>
 </div>
 </li>
-<li><a id="org14c142d"></a>Solution<br />
+<li><a id="org6b78cbc"></a>Solution<br />
 <div class="outline-text-5" id="text-1-6-4-2">
 <ul class="org-ul">
 <li><p>
@@ -3504,12 +3505,12 @@ Part 2
 </li>
 </ol>
 </div>
-<div id="outline-container-orgaf76f69" class="outline-4">
-<h4 id="orgaf76f69"><span class="section-number-4">1.6.5.</span> <a href="https://adventofcode.com/2022/day/5">Day 5: Supply Stacks</a></h4>
+<div id="outline-container-orgc56a122" class="outline-4">
+<h4 id="orgc56a122"><span class="section-number-4">1.6.5.</span> <a href="https://adventofcode.com/2022/day/5">Day 5: Supply Stacks</a></h4>
 <div class="outline-text-4" id="text-1-6-5">
 </div>
 <ol class="org-ol">
-<li><a id="org72a338b"></a>Description<br />
+<li><a id="org17d07df"></a>Description<br />
 <div class="outline-text-5" id="text-1-6-5-1">
 <p>
 The expedition can depart as soon as the final supplies have been unloaded from the ships. Supplies are stored in stacks of marked crates, but because the needed supplies are buried under many other crates, the crates need to be rearranged.
@@ -3527,7 +3528,7 @@ The Elves don&rsquo;t want to interrupt the crane operator during this delicate 
 They do, however, have a drawing of the starting stacks of crates and the rearrangement procedure (your puzzle input). For example:
 </p>
 
-<pre class="example" id="org6a570de">
+<pre class="example" id="orgc19864a">
     [D]
 [N] [C]
 [Z] [M] [P]
@@ -3547,7 +3548,7 @@ In this example, there are three stacks of crates. Stack 1 contains two crates: 
 Then, the rearrangement procedure is given. In each step of the procedure, a quantity of crates is moved from one stack to a different stack. In the first step of the above rearrangement procedure, one crate is moved from stack 2 to stack 1, resulting in this configuration:
 </p>
 
-<pre class="example" id="org3a030c9">
+<pre class="example" id="org8eb23a0">
 [D]
 [N] [C]
 [Z] [M] [P]
@@ -3558,7 +3559,7 @@ Then, the rearrangement procedure is given. In each step of the procedure, a qua
 In the second step, three crates are moved from stack 1 to stack 3. Crates are moved <i><b>one at a time</b></i>, so the first crate to be moved (D) ends up below the second and third crates:
 </p>
 
-<pre class="example" id="org8e76eb7">
+<pre class="example" id="orgf40a487">
         [Z]
         [N]
     [C] [D]
@@ -3570,7 +3571,7 @@ In the second step, three crates are moved from stack 1 to stack 3. Crates are m
 Then, both crates are moved from stack 2 to stack 1. Again, because crates are moved <i><b>one at a time</b></i>, crate C ends up below crate M:
 </p>
 
-<pre class="example" id="org31e8861">
+<pre class="example" id="org5c75b40">
         [Z]
         [N]
 [M]     [D]
@@ -3582,7 +3583,7 @@ Then, both crates are moved from stack 2 to stack 1. Again, because crates are m
 Finally, one crate is moved from stack 1 to stack 2:
 </p>
 
-<pre class="example" id="orgeaa6b4b">
+<pre class="example" id="orgc57350f">
         [Z]
         [N]
         [D]
@@ -3618,7 +3619,7 @@ The CrateMover 9001 is notable for many new and exciting features: air condition
 <p>
 Again considering the example above, the crates begin in the same configuration:
 </p>
-<pre class="example" id="org0d61ea5">
+<pre class="example" id="orga7ca5bf">
     [D]
 [N] [C]
 [Z] [M] [P]
@@ -3629,7 +3630,7 @@ Again considering the example above, the crates begin in the same configuration:
 Moving a single crate from stack 2 to stack 1 behaves the same as before:
 </p>
 
-<pre class="example" id="org214dbff">
+<pre class="example" id="org213d109">
 [D]
 [N] [C]
 [Z] [M] [P]
@@ -3640,7 +3641,7 @@ Moving a single crate from stack 2 to stack 1 behaves the same as before:
 However, the action of moving three crates from stack 1 to stack 3 means that those three moved crates <i><b>stay in the same order</b></i>, resulting in this new configuration:
 </p>
 
-<pre class="example" id="org492e425">
+<pre class="example" id="orgadde2d1">
         [D]
         [N]
     [C] [Z]
@@ -3652,7 +3653,7 @@ However, the action of moving three crates from stack 1 to stack 3 means that th
 Next, as both crates are moved from stack 2 to stack 1, they <i><b>retain their order</b></i> as well:
 </p>
 
-<pre class="example" id="org070ea27">
+<pre class="example" id="orgdbb5493">
         [D]
         [N]
 [C]     [Z]
@@ -3664,7 +3665,7 @@ Next, as both crates are moved from stack 2 to stack 1, they <i><b>retain their 
 Finally, a single crate is still moved from stack 1 to stack 2, but now it&rsquo;s crate <code>C</code> that gets moved:
 </p>
 
-<pre class="example" id="org93575fb">
+<pre class="example" id="org77d02ce">
         [D]
         [N]
         [Z]
@@ -3685,7 +3686,7 @@ Your puzzle answer was <code>GMPMLWNMG</code>.
 </p>
 </div>
 </li>
-<li><a id="org379357e"></a>Solution<br />
+<li><a id="orgaac4d92"></a>Solution<br />
 <div class="outline-text-5" id="text-1-6-5-2">
 <ul class="org-ul">
 <li><p>
@@ -3808,12 +3809,12 @@ GMPMLWNMG
 </ol>
 </div>
 
-<div id="outline-container-orge04bb2c" class="outline-4">
-<h4 id="orge04bb2c"><span class="section-number-4">1.6.6.</span> <a href="https://adventofcode.com/2022/day/6">Day 6: Tuning Trouble</a></h4>
+<div id="outline-container-org753aa89" class="outline-4">
+<h4 id="org753aa89"><span class="section-number-4">1.6.6.</span> <a href="https://adventofcode.com/2022/day/6">Day 6: Tuning Trouble</a></h4>
 <div class="outline-text-4" id="text-1-6-6">
 </div>
 <ol class="org-ol">
-<li><a id="org234c16d"></a>Description<br />
+<li><a id="orgd68a3fe"></a>Description<br />
 <div class="outline-text-5" id="text-1-6-6-1">
 <p>
 The preparations are finally complete; you and the Elves leave camp on foot and begin to make your way toward the star fruit grove.
@@ -3908,7 +3909,7 @@ Your puzzle answer was <code>3051</code>.
 </p>
 </div>
 </li>
-<li><a id="org972b139"></a>Solution<br />
+<li><a id="org44be84b"></a>Solution<br />
 <div class="outline-text-5" id="text-1-6-6-2">
 <ul class="org-ul">
 <li><p>
@@ -3962,12 +3963,12 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-org6343db3" class="outline-4">
-<h4 id="org6343db3"><span class="section-number-4">1.6.7.</span> <a href="https://adventofcode.com/2022/day/7">Day 7: No Space Left On Device</a></h4>
+<div id="outline-container-orgf483022" class="outline-4">
+<h4 id="orgf483022"><span class="section-number-4">1.6.7.</span> <a href="https://adventofcode.com/2022/day/7">Day 7: No Space Left On Device</a></h4>
 <div class="outline-text-4" id="text-1-6-7">
 </div>
 <ol class="org-ol">
-<li><a id="org831e0ea"></a>Description<br />
+<li><a id="orgb8b8723"></a>Description<br />
 <div class="outline-text-5" id="text-1-6-7-1">
 <p>
 You can hear birds chirping and raindrops hitting leaves as the expedition proceeds. Occasionally, you can even hear much louder sounds in the distance; how big do the animals get out here, anyway?
@@ -3977,7 +3978,7 @@ You can hear birds chirping and raindrops hitting leaves as the expedition proce
 The device the Elves gave you has problems with more than just its communication system. You try to run a system update:
 </p>
 
-<pre class="example" id="org33b2de4">
+<pre class="example" id="org4901276">
 $ system-update --please --pretty-please-with-sugar-on-top
 Error: No space left on device
 </pre>
@@ -3990,7 +3991,7 @@ Perhaps you can delete some files to make space for the update?
 You browse around the filesystem to assess the situation and save the resulting terminal output (your puzzle input). For example:
 </p>
 
-<pre class="example" id="org1de3bec">
+<pre class="example" id="org2f47af8">
 $ cd /
 $ ls
 dir a
@@ -4042,7 +4043,7 @@ Within the terminal output, lines that begin with <code>$</code> are commands yo
 Given the commands and output in the example above, you can determine that the filesystem looks visually like this:
 </p>
 
-<pre class="example" id="orgc058fae">
+<pre class="example" id="org0931357">
 - / (dir)
   - a (dir)
     - e (dir)
@@ -4121,7 +4122,7 @@ Your puzzle answer was 2568781.
 </p>
 </div>
 </li>
-<li><a id="org3e1e501"></a>Solution<br />
+<li><a id="orgcc94be3"></a>Solution<br />
 <div class="outline-text-5" id="text-1-6-7-2">
 <ul class="org-ul">
 <li><p>
@@ -4287,12 +4288,12 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-org42ac40b" class="outline-4">
-<h4 id="org42ac40b"><span class="section-number-4">1.6.8.</span> <a href="https://adventofcode.com/2022/day/8">Day 8: Treetop Tree House</a></h4>
+<div id="outline-container-org7b542a3" class="outline-4">
+<h4 id="org7b542a3"><span class="section-number-4">1.6.8.</span> <a href="https://adventofcode.com/2022/day/8">Day 8: Treetop Tree House</a></h4>
 <div class="outline-text-4" id="text-1-6-8">
 </div>
 <ol class="org-ol">
-<li><a id="orgd65f5f4"></a>Description The expedition comes across a peculiar patch of tall trees all planted carefully in a grid. The Elves explain that a previous expedition planted these trees as a reforestation effort. Now, they&rsquo;re curious if this would be a good location for a tree house.<br />
+<li><a id="org29cd1e6"></a>Description The expedition comes across a peculiar patch of tall trees all planted carefully in a grid. The Elves explain that a previous expedition planted these trees as a reforestation effort. Now, they&rsquo;re curious if this would be a good location for a tree house.<br />
 <div class="outline-text-5" id="text-1-6-8-1">
 <p>
 First, determine whether there is enough tree cover here to keep a tree house hidden. To do this, you need to count the number of trees that are visible from outside the grid when looking directly along a row or column.
@@ -4302,7 +4303,7 @@ First, determine whether there is enough tree cover here to keep a tree house hi
 The Elves have already launched a quadcopter to generate a map with the height of each tree (your puzzle input). For example:
 </p>
 
-<pre class="example" id="org1ae9001">
+<pre class="example" id="org3282f17">
 30373
 25512
 65332
@@ -4361,7 +4362,7 @@ The Elves don&rsquo;t care about distant trees taller than those found by the ru
 In the example above, consider the middle 5 in the second row:
 </p>
 
-<pre class="example" id="org44449ef">
+<pre class="example" id="orgffd5dc8">
 30373
 25512
 65332
@@ -4384,7 +4385,7 @@ A tree&rsquo;s scenic score is found by multiplying together its viewing distanc
 However, you can do even better: consider the tree of height 5 in the middle of the fourth row:
 </p>
 
-<pre class="example" id="org85223d1">
+<pre class="example" id="org5155928">
 30373
 25512
 65332
@@ -4416,7 +4417,7 @@ Description
 </p>
 </div>
 </li>
-<li><a id="orga3aa6de"></a>Solution<br />
+<li><a id="orgea88525"></a>Solution<br />
 <div class="outline-text-5" id="text-1-6-8-2">
 <ul class="org-ul">
 <li><p>
@@ -4553,12 +4554,12 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-org103dbcb" class="outline-4">
-<h4 id="org103dbcb"><span class="section-number-4">1.6.9.</span> <a href="https://adventofcode.com/2022/day/9">Day 9: Rope Bridge</a></h4>
+<div id="outline-container-orgc3ba286" class="outline-4">
+<h4 id="orgc3ba286"><span class="section-number-4">1.6.9.</span> <a href="https://adventofcode.com/2022/day/9">Day 9: Rope Bridge</a></h4>
 <div class="outline-text-4" id="text-1-6-9">
 </div>
 <ol class="org-ol">
-<li><a id="org27c223c"></a>Description<br />
+<li><a id="org72182aa"></a>Description<br />
 <div class="outline-text-5" id="text-1-6-9-1">
 <p>
 This rope bridge creaks as you walk along it. You aren&rsquo;t sure how old it is, or whether it can even support your weight.
@@ -4584,7 +4585,7 @@ Due to nebulous reasoning involving Planck lengths, you should be able to model 
 Due to the aforementioned Planck lengths, the rope must be quite short; in fact, the head (H) and tail (T) must always be touching (diagonally adjacent and even overlapping both count as touching):
 </p>
 
-<pre class="example" id="org23ab564">
+<pre class="example" id="orgdc3f76d">
 ....
 .TH.
 ....
@@ -4603,7 +4604,7 @@ Due to the aforementioned Planck lengths, the rope must be quite short; in fact,
 If the head is ever two steps directly up, down, left, or right from the tail, the tail must also move one step in that direction so it remains close enough:
 </p>
 
-<pre class="example" id="org660bf2f">
+<pre class="example" id="org043e2e5">
 .....    .....    .....
 .TH.. -&gt; .T.H. -&gt; ..TH.
 .....    .....    .....
@@ -4619,7 +4620,7 @@ If the head is ever two steps directly up, down, left, or right from the tail, t
 Otherwise, if the head and tail aren&rsquo;t touching and aren&rsquo;t in the same row or column, the tail always moves one step diagonally to keep up:
 </p>
 
-<pre class="example" id="org1870991">
+<pre class="example" id="org827f21c">
 .....    .....    .....
 .....    ..H..    ..H..
 ..H.. -&gt; ..... -&gt; ..T..
@@ -4641,7 +4642,7 @@ You just need to work out where the tail goes as the head follows a series of mo
 For example:
 </p>
 
-<pre class="example" id="orgec61914">
+<pre class="example" id="orgaf41161">
 R 4
 U 4
 L 3
@@ -4656,7 +4657,7 @@ R 2
 This series of motions moves the head right four steps, then up four steps, then left three steps, then down one step, and so on. After each step, you&rsquo;ll need to update the position of the tail if the step means the head is no longer adjacent to the tail. Visually, these motions occur as follows (s marks the starting position as a reference point):
 </p>
 
-<pre class="example" id="org1be5579">
+<pre class="example" id="org3d2abd9">
 == Initial State ==
 
 ......
@@ -4830,7 +4831,7 @@ s.....
 After simulating the rope, you can count up all of the positions the tail visited at least once. In this diagram, s again marks the starting position (which the tail also visited) and # marks other positions the tail visited:
 </p>
 
-<pre class="example" id="org6bc08b8">
+<pre class="example" id="orgf4ad0ab">
 ..##..
 ...##.
 .####.
@@ -4867,7 +4868,7 @@ Rather than two knots, you now must simulate a rope consisting of ten knots. One
 Using the same series of motions as the above example, but with the knots marked H, 1, 2, &#x2026;, 9, the motions now occur as follows:
 </p>
 
-<pre class="example" id="org09d76cd">
+<pre class="example" id="org8ebcbc7">
 == Initial State ==
 
 ......
@@ -5045,7 +5046,7 @@ Now, you need to keep track of the positions the new tail, 9, visits. In this ex
 Here&rsquo;s a larger example:
 </p>
 
-<pre class="example" id="org0fcb89c">
+<pre class="example" id="orgf25f19f">
 R 5
 U 8
 L 8
@@ -5060,7 +5061,7 @@ U 20
 These motions occur as follows (individual steps are not shown):
 </p>
 
-<pre class="example" id="org47d750d">
+<pre class="example" id="org5b5e4e9">
 == Initial State ==
 
 ..........................
@@ -5283,7 +5284,7 @@ H.........................
 Now, the tail (9) visits 36 positions (including s) at least once:
 </p>
 
-<pre class="example" id="org21edf34">
+<pre class="example" id="orge95a2b7">
 ..........................
 ..........................
 ..........................
@@ -5317,7 +5318,7 @@ Your puzzle answer was 2658.
 </p>
 </div>
 </li>
-<li><a id="org7cbcfeb"></a>Solution<br />
+<li><a id="org2807d0f"></a>Solution<br />
 <div class="outline-text-5" id="text-1-6-9-2">
 <ul class="org-ul">
 <li><p>
@@ -5422,12 +5423,12 @@ Part 2
 </ol>
 </div>
 
-<div id="outline-container-orge1dc9f7" class="outline-4">
-<h4 id="orge1dc9f7"><span class="section-number-4">1.6.10.</span> <a href="https://adventofcode.com/2022/day/10">Day 10: Cathode-Ray Tube</a></h4>
+<div id="outline-container-orgf1892ad" class="outline-4">
+<h4 id="orgf1892ad"><span class="section-number-4">1.6.10.</span> <a href="https://adventofcode.com/2022/day/10">Day 10: Cathode-Ray Tube</a></h4>
 <div class="outline-text-4" id="text-1-6-10">
 </div>
 <ol class="org-ol">
-<li><a id="orgaa31e40"></a>Description<br />
+<li><a id="org4915111"></a>Description<br />
 <div class="outline-text-5" id="text-1-6-10-1">
 <p>
 You avoid the ropes, plunge into the river, and swim to shore.
@@ -5462,7 +5463,7 @@ The CPU uses these instructions in a program (your puzzle input) to, somehow, te
 Consider the following small program:
 </p>
 
-<pre class="example" id="orgdfdb947">
+<pre class="example" id="orgb0df0de">
 noop
 addx 3
 addx -5
@@ -5488,7 +5489,7 @@ Maybe you can learn something by looking at the value of the X register througho
 For example, consider this larger program:
 </p>
 
-<pre class="example" id="org23e09d7">
+<pre class="example" id="org00829f8">
 addx 15
 addx -11
 addx 6
@@ -5675,7 +5676,7 @@ You count the pixels on the CRT: 40 wide and 6 high. This CRT screen draws the t
 Like the CPU, the CRT is tied closely to the clock circuit: the CRT draws a single pixel during each cycle. Representing each pixel of the screen as a #, here are the cycles during which the first and last pixel in each row are drawn:
 </p>
 
-<pre class="example" id="org0a43b42">
+<pre class="example" id="org271c616">
 Cycle   1 -&gt; ######################################## &lt;- Cycle  40
 Cycle  41 -&gt; ######################################## &lt;- Cycle  80
 Cycle  81 -&gt; ######################################## &lt;- Cycle 120
@@ -5692,7 +5693,7 @@ So, by carefully timing the CPU instructions and the CRT drawing operations, you
 The first few pixels from the larger example above are drawn as follows:
 </p>
 
-<pre class="example" id="orgdcd88d2">
+<pre class="example" id="org43deae3">
 Sprite position: ###.....................................
 
 Start cycle   1: begin executing addx 15
@@ -5795,7 +5796,7 @@ Sprite position: ...................###..................
 Allowing the program to run to completion causes the CRT to produce the following image:
 </p>
 
-<pre class="example" id="org38425c8">
+<pre class="example" id="org07fc3bf">
 ##..##..##..##..##..##..##..##..##..##..
 ###...###...###...###...###...###...###.
 ####....####....####....####....####....
@@ -5813,7 +5814,7 @@ Your puzzle answer was FPGPHFGH.
 </p>
 </div>
 </li>
-<li><a id="org5c78474"></a>Solution<br />
+<li><a id="orga2340a7"></a>Solution<br />
 <div class="outline-text-5" id="text-1-6-10-2">
 <ul class="org-ul">
 <li><p>
@@ -5917,21 +5918,616 @@ Part 2
 </li>
 </ol>
 </div>
+
+
+<div id="outline-container-org8d6561b" class="outline-4">
+<h4 id="org8d6561b"><span class="section-number-4">1.6.11.</span> <a href="https://adventofcode.com/2022/day/11">Day 11: Monkey in the Middle</a></h4>
+<div class="outline-text-4" id="text-1-6-11">
+</div>
+<ol class="org-ol">
+<li><a id="orgaeb3275"></a>Description<br />
+<div class="outline-text-5" id="text-1-6-11-1">
+<p>
+As you finally start making your way upriver, you realize your pack is much lighter than you remember. Just then, one of the items from your pack goes flying overhead. Monkeys are playing Keep Away with your missing things!
+</p>
+
+<p>
+To get your stuff back, you need to be able to predict where the monkeys will throw your items. After some careful observation, you realize the monkeys operate based on how worried you are about each item.
+</p>
+
+<p>
+You take some notes (your puzzle input) on the items each monkey currently has, how worried you are about those items, and how the monkey makes decisions based on your worry level. For example:
+</p>
+
+<pre class="example" id="orgdf8c763">
+Monkey 0:
+  Starting items: 79, 98
+  Operation: new = old * 19
+  Test: divisible by 23
+    If true: throw to monkey 2
+    If false: throw to monkey 3
+
+Monkey 1:
+  Starting items: 54, 65, 75, 74
+  Operation: new = old + 6
+  Test: divisible by 19
+    If true: throw to monkey 2
+    If false: throw to monkey 0
+
+Monkey 2:
+  Starting items: 79, 60, 97
+  Operation: new = old * old
+  Test: divisible by 13
+    If true: throw to monkey 1
+    If false: throw to monkey 3
+
+Monkey 3:
+  Starting items: 74
+  Operation: new = old + 3
+  Test: divisible by 17
+    If true: throw to monkey 0
+    If false: throw to monkey 1
+</pre>
+
+<p>
+Each monkey has several attributes:
+</p>
+
+<ul class="org-ul">
+<li>Starting items lists your worry level for each item the monkey is currently holding in the order they will be inspected.</li>
+<li>Operation shows how your worry level changes as that monkey inspects an item. (An operation like new = old * 5 means that your worry level after the monkey inspected the item is five times whatever your worry level was before inspection.)</li>
+<li>Test shows how the monkey uses your worry level to decide where to throw an item next.
+<ul class="org-ul">
+<li>If true shows what happens with an item if the Test was true.</li>
+<li>If false shows what happens with an item if the Test was false.</li>
+</ul></li>
+</ul>
+
+<p>
+After each monkey inspects an item but before it tests your worry level, your relief that the monkey&rsquo;s inspection didn&rsquo;t damage the item causes your worry level to be divided by three and rounded down to the nearest integer.
+</p>
+
+<p>
+The monkeys take turns inspecting and throwing items. On a single monkey&rsquo;s turn, it inspects and throws all of the items it is holding one at a time and in the order listed. Monkey 0 goes first, then monkey 1, and so on until each monkey has had one turn. The process of each monkey taking a single turn is called a round.
+</p>
+
+<p>
+When a monkey throws an item to another monkey, the item goes on the end of the recipient monkey&rsquo;s list. A monkey that starts a round with no items could end up inspecting and throwing many items by the time its turn comes around. If a monkey is holding no items at the start of its turn, its turn ends.
+</p>
+
+<p>
+In the above example, the first round proceeds as follows:
+</p>
+
+<pre class="example" id="org2d87d5f">
+Monkey 0:
+  Monkey inspects an item with a worry level of 79.
+    Worry level is multiplied by 19 to 1501.
+    Monkey gets bored with item. Worry level is divided by 3 to 500.
+    Current worry level is not divisible by 23.
+    Item with worry level 500 is thrown to monkey 3.
+  Monkey inspects an item with a worry level of 98.
+    Worry level is multiplied by 19 to 1862.
+    Monkey gets bored with item. Worry level is divided by 3 to 620.
+    Current worry level is not divisible by 23.
+    Item with worry level 620 is thrown to monkey 3.
+Monkey 1:
+  Monkey inspects an item with a worry level of 54.
+    Worry level increases by 6 to 60.
+    Monkey gets bored with item. Worry level is divided by 3 to 20.
+    Current worry level is not divisible by 19.
+    Item with worry level 20 is thrown to monkey 0.
+  Monkey inspects an item with a worry level of 65.
+    Worry level increases by 6 to 71.
+    Monkey gets bored with item. Worry level is divided by 3 to 23.
+    Current worry level is not divisible by 19.
+    Item with worry level 23 is thrown to monkey 0.
+  Monkey inspects an item with a worry level of 75.
+    Worry level increases by 6 to 81.
+    Monkey gets bored with item. Worry level is divided by 3 to 27.
+    Current worry level is not divisible by 19.
+    Item with worry level 27 is thrown to monkey 0.
+  Monkey inspects an item with a worry level of 74.
+    Worry level increases by 6 to 80.
+    Monkey gets bored with item. Worry level is divided by 3 to 26.
+    Current worry level is not divisible by 19.
+    Item with worry level 26 is thrown to monkey 0.
+Monkey 2:
+  Monkey inspects an item with a worry level of 79.
+    Worry level is multiplied by itself to 6241.
+    Monkey gets bored with item. Worry level is divided by 3 to 2080.
+    Current worry level is divisible by 13.
+    Item with worry level 2080 is thrown to monkey 1.
+  Monkey inspects an item with a worry level of 60.
+    Worry level is multiplied by itself to 3600.
+    Monkey gets bored with item. Worry level is divided by 3 to 1200.
+    Current worry level is not divisible by 13.
+    Item with worry level 1200 is thrown to monkey 3.
+  Monkey inspects an item with a worry level of 97.
+    Worry level is multiplied by itself to 9409.
+    Monkey gets bored with item. Worry level is divided by 3 to 3136.
+    Current worry level is not divisible by 13.
+    Item with worry level 3136 is thrown to monkey 3.
+Monkey 3:
+  Monkey inspects an item with a worry level of 74.
+    Worry level increases by 3 to 77.
+    Monkey gets bored with item. Worry level is divided by 3 to 25.
+    Current worry level is not divisible by 17.
+    Item with worry level 25 is thrown to monkey 1.
+  Monkey inspects an item with a worry level of 500.
+    Worry level increases by 3 to 503.
+    Monkey gets bored with item. Worry level is divided by 3 to 167.
+    Current worry level is not divisible by 17.
+    Item with worry level 167 is thrown to monkey 1.
+  Monkey inspects an item with a worry level of 620.
+    Worry level increases by 3 to 623.
+    Monkey gets bored with item. Worry level is divided by 3 to 207.
+    Current worry level is not divisible by 17.
+    Item with worry level 207 is thrown to monkey 1.
+  Monkey inspects an item with a worry level of 1200.
+    Worry level increases by 3 to 1203.
+    Monkey gets bored with item. Worry level is divided by 3 to 401.
+    Current worry level is not divisible by 17.
+    Item with worry level 401 is thrown to monkey 1.
+  Monkey inspects an item with a worry level of 3136.
+    Worry level increases by 3 to 3139.
+    Monkey gets bored with item. Worry level is divided by 3 to 1046.
+    Current worry level is not divisible by 17.
+    Item with worry level 1046 is thrown to monkey 1.
+</pre>
+
+<p>
+After round 1, the monkeys are holding items with these worry levels:
+</p>
+
+<pre class="example" id="org105d918">
+Monkey 0: 20, 23, 27, 26
+Monkey 1: 2080, 25, 167, 207, 401, 1046
+Monkey 2:
+Monkey 3:
+</pre>
+
+<p>
+Monkeys 2 and 3 aren&rsquo;t holding any items at the end of the round; they both inspected items during the round and threw them all before the round ended.
+</p>
+
+<p>
+This process continues for a few more rounds:
+</p>
+
+<pre class="example" id="org68087c7">
+After round 2, the monkeys are holding items with these worry levels:
+Monkey 0: 695, 10, 71, 135, 350
+Monkey 1: 43, 49, 58, 55, 362
+Monkey 2:
+Monkey 3:
+
+After round 3, the monkeys are holding items with these worry levels:
+Monkey 0: 16, 18, 21, 20, 122
+Monkey 1: 1468, 22, 150, 286, 739
+Monkey 2:
+Monkey 3:
+
+After round 4, the monkeys are holding items with these worry levels:
+Monkey 0: 491, 9, 52, 97, 248, 34
+Monkey 1: 39, 45, 43, 258
+Monkey 2:
+Monkey 3:
+
+After round 5, the monkeys are holding items with these worry levels:
+Monkey 0: 15, 17, 16, 88, 1037
+Monkey 1: 20, 110, 205, 524, 72
+Monkey 2:
+Monkey 3:
+
+After round 6, the monkeys are holding items with these worry levels:
+Monkey 0: 8, 70, 176, 26, 34
+Monkey 1: 481, 32, 36, 186, 2190
+Monkey 2:
+Monkey 3:
+
+After round 7, the monkeys are holding items with these worry levels:
+Monkey 0: 162, 12, 14, 64, 732, 17
+Monkey 1: 148, 372, 55, 72
+Monkey 2:
+Monkey 3:
+
+After round 8, the monkeys are holding items with these worry levels:
+Monkey 0: 51, 126, 20, 26, 136
+Monkey 1: 343, 26, 30, 1546, 36
+Monkey 2:
+Monkey 3:
+
+After round 9, the monkeys are holding items with these worry levels:
+Monkey 0: 116, 10, 12, 517, 14
+Monkey 1: 108, 267, 43, 55, 288
+Monkey 2:
+Monkey 3:
+
+After round 10, the monkeys are holding items with these worry levels:
+Monkey 0: 91, 16, 20, 98
+Monkey 1: 481, 245, 22, 26, 1092, 30
+Monkey 2:
+Monkey 3:
+
+...
+
+After round 15, the monkeys are holding items with these worry levels:
+Monkey 0: 83, 44, 8, 184, 9, 20, 26, 102
+Monkey 1: 110, 36
+Monkey 2:
+Monkey 3:
+
+...
+
+After round 20, the monkeys are holding items with these worry levels:
+Monkey 0: 10, 12, 14, 26, 34
+Monkey 1: 245, 93, 53, 199, 115
+Monkey 2:
+Monkey 3:
+</pre>
+
+<p>
+Chasing all of the monkeys at once is impossible; you&rsquo;re going to have to focus on the two most active monkeys if you want any hope of getting your stuff back. Count the total number of times each monkey inspects items over 20 rounds:
+</p>
+
+<pre class="example" id="orgcc1f349">
+Monkey 0 inspected items 101 times.
+Monkey 1 inspected items 95 times.
+Monkey 2 inspected items 7 times.
+Monkey 3 inspected items 105 times.
+</pre>
+
+<p>
+In this example, the two most active monkeys inspected items 101 and 105 times. The level of monkey business in this situation can be found by multiplying these together: 10605.
+</p>
+
+<p>
+Figure out which monkeys to chase by counting how many items they inspect over 20 rounds. What is the level of monkey business after 20 rounds of stuff-slinging simian shenanigans?
+</p>
+
+<p>
+Your puzzle answer was 62491.
+</p>
+
+<p>
+&#x2014; Part Two &#x2014;
+You&rsquo;re worried you might not ever get your items back. So worried, in fact, that your relief that a monkey&rsquo;s inspection didn&rsquo;t damage an item no longer causes your worry level to be divided by three.
+</p>
+
+<p>
+Unfortunately, that relief was all that was keeping your worry levels from reaching ridiculous levels. You&rsquo;ll need to find another way to keep your worry levels manageable.
+</p>
+
+<p>
+At this rate, you might be putting up with these monkeys for a very long time - possibly 10000 rounds!
+</p>
+
+<p>
+With these new rules, you can still figure out the monkey business after 10000 rounds. Using the same example above:
+</p>
+
+<pre class="example" id="org778a478">
+== After round 1 ==
+Monkey 0 inspected items 2 times.
+Monkey 1 inspected items 4 times.
+Monkey 2 inspected items 3 times.
+Monkey 3 inspected items 6 times.
+
+== After round 20 ==
+Monkey 0 inspected items 99 times.
+Monkey 1 inspected items 97 times.
+Monkey 2 inspected items 8 times.
+Monkey 3 inspected items 103 times.
+
+== After round 1000 ==
+Monkey 0 inspected items 5204 times.
+Monkey 1 inspected items 4792 times.
+Monkey 2 inspected items 199 times.
+Monkey 3 inspected items 5192 times.
+
+== After round 2000 ==
+Monkey 0 inspected items 10419 times.
+Monkey 1 inspected items 9577 times.
+Monkey 2 inspected items 392 times.
+Monkey 3 inspected items 10391 times.
+
+== After round 3000 ==
+Monkey 0 inspected items 15638 times.
+Monkey 1 inspected items 14358 times.
+Monkey 2 inspected items 587 times.
+Monkey 3 inspected items 15593 times.
+
+== After round 4000 ==
+Monkey 0 inspected items 20858 times.
+Monkey 1 inspected items 19138 times.
+Monkey 2 inspected items 780 times.
+Monkey 3 inspected items 20797 times.
+
+== After round 5000 ==
+Monkey 0 inspected items 26075 times.
+Monkey 1 inspected items 23921 times.
+Monkey 2 inspected items 974 times.
+Monkey 3 inspected items 26000 times.
+
+== After round 6000 ==
+Monkey 0 inspected items 31294 times.
+Monkey 1 inspected items 28702 times.
+Monkey 2 inspected items 1165 times.
+Monkey 3 inspected items 31204 times.
+
+== After round 7000 ==
+Monkey 0 inspected items 36508 times.
+Monkey 1 inspected items 33488 times.
+Monkey 2 inspected items 1360 times.
+Monkey 3 inspected items 36400 times.
+
+== After round 8000 ==
+Monkey 0 inspected items 41728 times.
+Monkey 1 inspected items 38268 times.
+Monkey 2 inspected items 1553 times.
+Monkey 3 inspected items 41606 times.
+
+== After round 9000 ==
+Monkey 0 inspected items 46945 times.
+Monkey 1 inspected items 43051 times.
+Monkey 2 inspected items 1746 times.
+Monkey 3 inspected items 46807 times.
+
+== After round 10000 ==
+Monkey 0 inspected items 52166 times.
+Monkey 1 inspected items 47830 times.
+Monkey 2 inspected items 1938 times.
+Monkey 3 inspected items 52013 times.
+</pre>
+
+<p>
+After 10000 rounds, the two most active monkeys inspected items 52166 and 52013 times. Multiplying these together, the level of monkey business in this situation is now 2713310158.
+</p>
+
+<p>
+Worry levels are no longer divided by three after each item is inspected; you&rsquo;ll need to find another way to keep your worry levels manageable. Starting again from the initial state in your puzzle input, what is the level of monkey business after 10000 rounds?
+</p>
+
+<p>
+Your puzzle answer was 17408399184.
+</p>
+</div>
+</li>
+<li><a id="org3362b69"></a>Solution<br />
+<div class="outline-text-5" id="text-1-6-11-2">
+<ul class="org-ul">
+<li><p>
+Part 1
+</p>
+<div class="org-src-container">
+<pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #51afef;">import</span> re
+<span class="linenr"> 2: </span>
+<span class="linenr"> 3: </span><span style="color: #dcaeea;">f</span> = <span style="color: #c678dd;">open</span>(<span style="color: #98be65;">"./files/AoC/2022_11.txt"</span>, <span style="color: #98be65;">"r"</span>)
+<span class="linenr"> 4: </span>
+<span class="linenr"> 5: </span>
+<span class="linenr"> 6: </span><span style="color: #51afef;">class</span> <span style="color: #ECBE7B;">Monkey</span>:
+<span class="linenr"> 7: </span>    <span style="color: #51afef;">def</span> <span style="color: #c678dd;">__init__</span>(<span style="color: #51afef;">self</span>, items, opr, test):
+<span class="linenr"> 8: </span>        <span style="color: #51afef;">self</span>.items = items
+<span class="linenr"> 9: </span>        <span style="color: #51afef;">self</span>.<span style="color: #dcaeea;">opr</span> = opr
+<span class="linenr">10: </span>        <span style="color: #51afef;">self</span>.<span style="color: #dcaeea;">test</span> = test
+<span class="linenr">11: </span>        <span style="color: #51afef;">self</span>.<span style="color: #dcaeea;">count</span> = <span style="color: #da8548; font-weight: bold;">0</span>
+<span class="linenr">12: </span>
+<span class="linenr">13: </span>    <span style="color: #51afef;">def</span> <span style="color: #c678dd;">playRound</span>(<span style="color: #51afef;">self</span>):
+<span class="linenr">14: </span>        <span style="color: #dcaeea;">res</span> = []
+<span class="linenr">15: </span>        <span style="color: #51afef;">for</span> item <span style="color: #51afef;">in</span> <span style="color: #51afef;">self</span>.<span style="color: #dcaeea;">items</span>:
+<span class="linenr">16: </span>            worry = item
+<span class="linenr">17: </span>            <span style="color: #5B6268;"># </span><span style="color: #5B6268;">Inspection</span>
+<span class="linenr">18: </span>            <span style="color: #51afef;">self</span>.<span style="color: #dcaeea;">count</span> += <span style="color: #da8548; font-weight: bold;">1</span>
+<span class="linenr">19: </span>            <span style="color: #51afef;">if</span> <span style="color: #51afef;">self</span>.opr[<span style="color: #98be65;">"opr"</span>] == <span style="color: #98be65;">"*"</span>:
+<span class="linenr">20: </span>                <span style="color: #51afef;">if</span> <span style="color: #51afef;">self</span>.opr[<span style="color: #98be65;">"val"</span>].isnumeric():
+<span class="linenr">21: </span>                    worry *= <span style="color: #c678dd;">int</span>(<span style="color: #51afef;">self</span>.opr[<span style="color: #98be65;">"val"</span>])
+<span class="linenr">22: </span>                <span style="color: #51afef;">else</span>:
+<span class="linenr">23: </span>                    worry *= item
+<span class="linenr">24: </span>            <span style="color: #51afef;">elif</span> <span style="color: #51afef;">self</span>.opr[<span style="color: #98be65;">"opr"</span>] == <span style="color: #98be65;">"+"</span>:
+<span class="linenr">25: </span>                <span style="color: #51afef;">if</span> <span style="color: #51afef;">self</span>.opr[<span style="color: #98be65;">"val"</span>].isnumeric():
+<span class="linenr">26: </span>                    worry += <span style="color: #c678dd;">int</span>(<span style="color: #51afef;">self</span>.opr[<span style="color: #98be65;">"val"</span>])
+<span class="linenr">27: </span>                <span style="color: #51afef;">else</span>:
+<span class="linenr">28: </span>                    worry += item
+<span class="linenr">29: </span>
+<span class="linenr">30: </span>            <span style="color: #5B6268;"># </span><span style="color: #5B6268;">Bored</span>
+<span class="linenr">31: </span>            worry = worry // <span style="color: #da8548; font-weight: bold;">3</span>
+<span class="linenr">32: </span>
+<span class="linenr">33: </span>            <span style="color: #51afef;">if</span> worry % <span style="color: #51afef;">self</span>.test[<span style="color: #98be65;">"val"</span>] == <span style="color: #da8548; font-weight: bold;">0</span>:
+<span class="linenr">34: </span>                res.append((<span style="color: #51afef;">self</span>.test[<span style="color: #98be65;">"true"</span>], worry))
+<span class="linenr">35: </span>            <span style="color: #51afef;">else</span>:
+<span class="linenr">36: </span>                res.append((<span style="color: #51afef;">self</span>.test[<span style="color: #98be65;">"false"</span>], worry))
+<span class="linenr">37: </span>
+<span class="linenr">38: </span>        <span style="color: #51afef;">self</span>.items = []
+<span class="linenr">39: </span>
+<span class="linenr">40: </span>        <span style="color: #51afef;">return</span> res
+<span class="linenr">41: </span>
+<span class="linenr">42: </span>
+<span class="linenr">43: </span>monkeys = []
+<span class="linenr">44: </span>temp = {}
+<span class="linenr">45: </span>count = <span style="color: #da8548; font-weight: bold;">0</span>
+<span class="linenr">46: </span><span style="color: #51afef;">for</span> line <span style="color: #51afef;">in</span> f:
+<span class="linenr">47: </span>    line = line.strip()
+<span class="linenr">48: </span>
+<span class="linenr">49: </span>    <span style="color: #51afef;">if</span> count == <span style="color: #da8548; font-weight: bold;">1</span>:
+<span class="linenr">50: </span>        r = re.match(r<span style="color: #98be65;">"Starting items: ([\d ,]+)"</span>, line)
+<span class="linenr">51: </span>        items = <span style="color: #c678dd;">list</span>(<span style="color: #c678dd;">map</span>(<span style="color: #c678dd;">int</span>, r.group(<span style="color: #da8548; font-weight: bold;">1</span>).split(<span style="color: #98be65;">","</span>)))
+<span class="linenr">52: </span>        temp[<span style="color: #98be65;">"items"</span>] = items
+<span class="linenr">53: </span>    <span style="color: #51afef;">if</span> count == <span style="color: #da8548; font-weight: bold;">2</span>:
+<span class="linenr">54: </span>        r = re.match(r<span style="color: #98be65;">"Operation: new = old ([*+]{1}) ([\w\d]+)"</span>, line)
+<span class="linenr">55: </span>        <span style="color: #dcaeea;">opr</span>, <span style="color: #dcaeea;">val</span> = r.groups()
+<span class="linenr">56: </span>        temp[<span style="color: #98be65;">"opr"</span>] = {<span style="color: #98be65;">"val"</span>: val, <span style="color: #98be65;">"opr"</span>: opr}
+<span class="linenr">57: </span>    <span style="color: #51afef;">if</span> count == <span style="color: #da8548; font-weight: bold;">3</span>:
+<span class="linenr">58: </span>        r = re.match(r<span style="color: #98be65;">"Test: divisible by (\d+)"</span>, line)
+<span class="linenr">59: </span>        val = <span style="color: #c678dd;">int</span>(r.group(<span style="color: #da8548; font-weight: bold;">1</span>))
+<span class="linenr">60: </span>        temp[<span style="color: #98be65;">"test"</span>] = {<span style="color: #98be65;">"val"</span>: val}
+<span class="linenr">61: </span>    <span style="color: #51afef;">if</span> count == <span style="color: #da8548; font-weight: bold;">4</span>:
+<span class="linenr">62: </span>        r = re.match(r<span style="color: #98be65;">"If true: throw to monkey (\d)"</span>, line)
+<span class="linenr">63: </span>        to = <span style="color: #c678dd;">int</span>(r.group(<span style="color: #da8548; font-weight: bold;">1</span>))
+<span class="linenr">64: </span>        temp[<span style="color: #98be65;">"test"</span>][<span style="color: #98be65;">"true"</span>] = to
+<span class="linenr">65: </span>    <span style="color: #51afef;">if</span> count == <span style="color: #da8548; font-weight: bold;">5</span>:
+<span class="linenr">66: </span>        r = re.match(r<span style="color: #98be65;">"If false: throw to monkey (\d)"</span>, line)
+<span class="linenr">67: </span>        to = <span style="color: #c678dd;">int</span>(r.group(<span style="color: #da8548; font-weight: bold;">1</span>))
+<span class="linenr">68: </span>        temp[<span style="color: #98be65;">"test"</span>][<span style="color: #98be65;">"false"</span>] = to
+<span class="linenr">69: </span>
+<span class="linenr">70: </span>    count += <span style="color: #da8548; font-weight: bold;">1</span>
+<span class="linenr">71: </span>    <span style="color: #51afef;">if</span> count == <span style="color: #da8548; font-weight: bold;">6</span>:
+<span class="linenr">72: </span>        temp[<span style="color: #98be65;">"count"</span>] = <span style="color: #da8548; font-weight: bold;">0</span>
+<span class="linenr">73: </span>        monkeys.append(temp)
+<span class="linenr">74: </span>        temp = {}
+<span class="linenr">75: </span>        count = -<span style="color: #da8548; font-weight: bold;">1</span>
+<span class="linenr">76: </span>f.close()
+<span class="linenr">77: </span>
+<span class="linenr">78: </span><span style="color: #51afef;">for</span> i <span style="color: #51afef;">in</span> <span style="color: #c678dd;">range</span>(<span style="color: #c678dd;">len</span>(monkeys)):
+<span class="linenr">79: </span>    monkey = monkeys[i]
+<span class="linenr">80: </span>    monkeys[<span style="color: #dcaeea;">i</span>] = Monkey(monkey[<span style="color: #98be65;">"items"</span>], monkey[<span style="color: #98be65;">"opr"</span>], monkey[<span style="color: #98be65;">"test"</span>])
+<span class="linenr">81: </span>
+<span class="linenr">82: </span>
+<span class="linenr">83: </span><span style="color: #5B6268;"># </span><span style="color: #5B6268;">for monkey in monkeys:</span>
+<span class="linenr">84: </span><span style="color: #5B6268;">#     </span><span style="color: #5B6268;">print(monkey.items)</span>
+<span class="linenr">85: </span>
+<span class="linenr">86: </span><span style="color: #51afef;">for</span> i <span style="color: #51afef;">in</span> <span style="color: #c678dd;">range</span>(<span style="color: #da8548; font-weight: bold;">20</span>):
+<span class="linenr">87: </span>    <span style="color: #51afef;">for</span> monkey <span style="color: #51afef;">in</span> monkeys:
+<span class="linenr">88: </span>        plays = monkey.playRound()
+<span class="linenr">89: </span>        <span style="color: #51afef;">for</span> play <span style="color: #51afef;">in</span> plays:
+<span class="linenr">90: </span>            <span style="color: #dcaeea;">to</span>, <span style="color: #dcaeea;">item</span> = play
+<span class="linenr">91: </span>            monkeys[to].items.append(item)
+<span class="linenr">92: </span>
+<span class="linenr">93: </span>inspectionCounts = [monkey.count <span style="color: #51afef;">for</span> monkey <span style="color: #51afef;">in</span> monkeys]
+<span class="linenr">94: </span>inspectionCounts.sort()
+<span class="linenr">95: </span><span style="color: #c678dd;">print</span>(inspectionCounts[-<span style="color: #da8548; font-weight: bold;">1</span>] * inspectionCounts[-<span style="color: #da8548; font-weight: bold;">2</span>])
+</pre>
+</div>
+
+<pre class="example">
+62491
+</pre></li>
+
+<li><p>
+Part 2
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #51afef;">import</span> re
+<span class="linenr"> 2: </span>
+<span class="linenr"> 3: </span><span style="color: #dcaeea;">f</span> = <span style="color: #c678dd;">open</span>(<span style="color: #98be65;">"./files/AoC/2022_11.txt"</span>, <span style="color: #98be65;">"r"</span>)
+<span class="linenr"> 4: </span>
+<span class="linenr"> 5: </span>
+<span class="linenr"> 6: </span><span style="color: #51afef;">class</span> <span style="color: #ECBE7B;">Monkey</span>:
+<span class="linenr"> 7: </span>    <span style="color: #51afef;">def</span> <span style="color: #c678dd;">__init__</span>(<span style="color: #51afef;">self</span>, items, opr, test):
+<span class="linenr"> 8: </span>        <span style="color: #51afef;">self</span>.items = items
+<span class="linenr"> 9: </span>        <span style="color: #51afef;">self</span>.<span style="color: #dcaeea;">opr</span> = opr
+<span class="linenr">10: </span>        <span style="color: #51afef;">self</span>.<span style="color: #dcaeea;">test</span> = test
+<span class="linenr">11: </span>        <span style="color: #51afef;">self</span>.<span style="color: #dcaeea;">count</span> = <span style="color: #da8548; font-weight: bold;">0</span>
+<span class="linenr">12: </span>
+<span class="linenr">13: </span>    <span style="color: #51afef;">def</span> <span style="color: #c678dd;">playRound</span>(<span style="color: #51afef;">self</span>):
+<span class="linenr">14: </span>        <span style="color: #dcaeea;">res</span> = []
+<span class="linenr">15: </span>        <span style="color: #51afef;">for</span> item <span style="color: #51afef;">in</span> <span style="color: #51afef;">self</span>.<span style="color: #dcaeea;">items</span>:
+<span class="linenr">16: </span>            worry = item
+<span class="linenr">17: </span>            <span style="color: #5B6268;"># </span><span style="color: #5B6268;">Inspection</span>
+<span class="linenr">18: </span>            <span style="color: #51afef;">self</span>.<span style="color: #dcaeea;">count</span> += <span style="color: #da8548; font-weight: bold;">1</span>
+<span class="linenr">19: </span>            <span style="color: #51afef;">if</span> <span style="color: #51afef;">self</span>.opr[<span style="color: #98be65;">"opr"</span>] == <span style="color: #98be65;">"*"</span>:
+<span class="linenr">20: </span>                <span style="color: #51afef;">if</span> <span style="color: #51afef;">self</span>.opr[<span style="color: #98be65;">"val"</span>].isnumeric():
+<span class="linenr">21: </span>                    worry *= <span style="color: #c678dd;">int</span>(<span style="color: #51afef;">self</span>.opr[<span style="color: #98be65;">"val"</span>])
+<span class="linenr">22: </span>                <span style="color: #51afef;">else</span>:
+<span class="linenr">23: </span>                    worry *= item
+<span class="linenr">24: </span>            <span style="color: #51afef;">elif</span> <span style="color: #51afef;">self</span>.opr[<span style="color: #98be65;">"opr"</span>] == <span style="color: #98be65;">"+"</span>:
+<span class="linenr">25: </span>                <span style="color: #51afef;">if</span> <span style="color: #51afef;">self</span>.opr[<span style="color: #98be65;">"val"</span>].isnumeric():
+<span class="linenr">26: </span>                    worry += <span style="color: #c678dd;">int</span>(<span style="color: #51afef;">self</span>.opr[<span style="color: #98be65;">"val"</span>])
+<span class="linenr">27: </span>                <span style="color: #51afef;">else</span>:
+<span class="linenr">28: </span>                    worry += item
+<span class="linenr">29: </span>
+<span class="linenr">30: </span>            worry %= <span style="color: #da8548; font-weight: bold;">9699690</span>
+<span class="linenr">31: </span>
+<span class="linenr">32: </span>            <span style="color: #51afef;">if</span> worry % <span style="color: #51afef;">self</span>.test[<span style="color: #98be65;">"val"</span>] == <span style="color: #da8548; font-weight: bold;">0</span>:
+<span class="linenr">33: </span>                res.append((<span style="color: #51afef;">self</span>.test[<span style="color: #98be65;">"true"</span>], worry))
+<span class="linenr">34: </span>            <span style="color: #51afef;">else</span>:
+<span class="linenr">35: </span>                res.append((<span style="color: #51afef;">self</span>.test[<span style="color: #98be65;">"false"</span>], worry))
+<span class="linenr">36: </span>
+<span class="linenr">37: </span>        <span style="color: #51afef;">self</span>.items = []
+<span class="linenr">38: </span>
+<span class="linenr">39: </span>        <span style="color: #51afef;">return</span> res
+<span class="linenr">40: </span>
+<span class="linenr">41: </span>
+<span class="linenr">42: </span>monkeys = []
+<span class="linenr">43: </span>temp = {}
+<span class="linenr">44: </span>count = <span style="color: #da8548; font-weight: bold;">0</span>
+<span class="linenr">45: </span><span style="color: #51afef;">for</span> line <span style="color: #51afef;">in</span> f:
+<span class="linenr">46: </span>    line = line.strip()
+<span class="linenr">47: </span>
+<span class="linenr">48: </span>    <span style="color: #51afef;">if</span> count == <span style="color: #da8548; font-weight: bold;">1</span>:
+<span class="linenr">49: </span>        r = re.match(r<span style="color: #98be65;">"Starting items: ([\d ,]+)"</span>, line)
+<span class="linenr">50: </span>        items = <span style="color: #c678dd;">list</span>(<span style="color: #c678dd;">map</span>(<span style="color: #c678dd;">int</span>, r.group(<span style="color: #da8548; font-weight: bold;">1</span>).split(<span style="color: #98be65;">","</span>)))
+<span class="linenr">51: </span>        temp[<span style="color: #98be65;">"items"</span>] = items
+<span class="linenr">52: </span>    <span style="color: #51afef;">if</span> count == <span style="color: #da8548; font-weight: bold;">2</span>:
+<span class="linenr">53: </span>        r = re.match(r<span style="color: #98be65;">"Operation: new = old ([*+]{1}) ([\w\d]+)"</span>, line)
+<span class="linenr">54: </span>        <span style="color: #dcaeea;">opr</span>, <span style="color: #dcaeea;">val</span> = r.groups()
+<span class="linenr">55: </span>        temp[<span style="color: #98be65;">"opr"</span>] = {<span style="color: #98be65;">"val"</span>: val, <span style="color: #98be65;">"opr"</span>: opr}
+<span class="linenr">56: </span>    <span style="color: #51afef;">if</span> count == <span style="color: #da8548; font-weight: bold;">3</span>:
+<span class="linenr">57: </span>        r = re.match(r<span style="color: #98be65;">"Test: divisible by (\d+)"</span>, line)
+<span class="linenr">58: </span>        val = <span style="color: #c678dd;">int</span>(r.group(<span style="color: #da8548; font-weight: bold;">1</span>))
+<span class="linenr">59: </span>        temp[<span style="color: #98be65;">"test"</span>] = {<span style="color: #98be65;">"val"</span>: val}
+<span class="linenr">60: </span>    <span style="color: #51afef;">if</span> count == <span style="color: #da8548; font-weight: bold;">4</span>:
+<span class="linenr">61: </span>        r = re.match(r<span style="color: #98be65;">"If true: throw to monkey (\d)"</span>, line)
+<span class="linenr">62: </span>        to = <span style="color: #c678dd;">int</span>(r.group(<span style="color: #da8548; font-weight: bold;">1</span>))
+<span class="linenr">63: </span>        temp[<span style="color: #98be65;">"test"</span>][<span style="color: #98be65;">"true"</span>] = to
+<span class="linenr">64: </span>    <span style="color: #51afef;">if</span> count == <span style="color: #da8548; font-weight: bold;">5</span>:
+<span class="linenr">65: </span>        r = re.match(r<span style="color: #98be65;">"If false: throw to monkey (\d)"</span>, line)
+<span class="linenr">66: </span>        to = <span style="color: #c678dd;">int</span>(r.group(<span style="color: #da8548; font-weight: bold;">1</span>))
+<span class="linenr">67: </span>        temp[<span style="color: #98be65;">"test"</span>][<span style="color: #98be65;">"false"</span>] = to
+<span class="linenr">68: </span>
+<span class="linenr">69: </span>    count += <span style="color: #da8548; font-weight: bold;">1</span>
+<span class="linenr">70: </span>    <span style="color: #51afef;">if</span> count == <span style="color: #da8548; font-weight: bold;">6</span>:
+<span class="linenr">71: </span>        temp[<span style="color: #98be65;">"count"</span>] = <span style="color: #da8548; font-weight: bold;">0</span>
+<span class="linenr">72: </span>        monkeys.append(temp)
+<span class="linenr">73: </span>        temp = {}
+<span class="linenr">74: </span>        count = -<span style="color: #da8548; font-weight: bold;">1</span>
+<span class="linenr">75: </span>f.close()
+<span class="linenr">76: </span>
+<span class="linenr">77: </span><span style="color: #51afef;">for</span> i <span style="color: #51afef;">in</span> <span style="color: #c678dd;">range</span>(<span style="color: #c678dd;">len</span>(monkeys)):
+<span class="linenr">78: </span>    monkey = monkeys[i]
+<span class="linenr">79: </span>    monkeys[<span style="color: #dcaeea;">i</span>] = Monkey(monkey[<span style="color: #98be65;">"items"</span>], monkey[<span style="color: #98be65;">"opr"</span>], monkey[<span style="color: #98be65;">"test"</span>])
+<span class="linenr">80: </span>
+<span class="linenr">81: </span>
+<span class="linenr">82: </span><span style="color: #5B6268;"># </span><span style="color: #5B6268;">for monkey in monkeys:</span>
+<span class="linenr">83: </span><span style="color: #5B6268;">#     </span><span style="color: #5B6268;">print(monkey.items)</span>
+<span class="linenr">84: </span>
+<span class="linenr">85: </span><span style="color: #51afef;">for</span> i <span style="color: #51afef;">in</span> <span style="color: #c678dd;">range</span>(10_000):
+<span class="linenr">86: </span>    <span style="color: #51afef;">for</span> monkey <span style="color: #51afef;">in</span> monkeys:
+<span class="linenr">87: </span>        plays = monkey.playRound()
+<span class="linenr">88: </span>        <span style="color: #51afef;">for</span> play <span style="color: #51afef;">in</span> plays:
+<span class="linenr">89: </span>            <span style="color: #dcaeea;">to</span>, <span style="color: #dcaeea;">item</span> = play
+<span class="linenr">90: </span>            monkeys[to].items.append(item)
+<span class="linenr">91: </span>
+<span class="linenr">92: </span>inspectionCounts = [monkey.count <span style="color: #51afef;">for</span> monkey <span style="color: #51afef;">in</span> monkeys]
+<span class="linenr">93: </span>inspectionCounts.sort()
+<span class="linenr">94: </span><span style="color: #c678dd;">print</span>(inspectionCounts[-<span style="color: #da8548; font-weight: bold;">1</span>] * inspectionCounts[-<span style="color: #da8548; font-weight: bold;">2</span>])
+</pre>
+</div>
+
+<pre class="example">
+17408399184
+</pre></li>
+</ul>
+</div>
+</li>
+</ol>
 </div>
 </div>
+</div>
 
 
 
-<div id="outline-container-org84430d9" class="outline-2">
-<h2 id="org84430d9"><span class="section-number-2">2.</span> Leetcode&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_LeetCode">@LeetCode</span></span></h2>
+<div id="outline-container-orgc05f62e" class="outline-2">
+<h2 id="orgc05f62e"><span class="section-number-2">2.</span> Leetcode&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_LeetCode">@LeetCode</span></span></h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-orgb3397e8" class="outline-3">
-<h3 id="orgb3397e8"><span class="section-number-3">2.1.</span> <a href="https://leetcode.com/problems/two-sum/">Two sum</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
+<div id="outline-container-org2412a00" class="outline-3">
+<h3 id="org2412a00"><span class="section-number-3">2.1.</span> <a href="https://leetcode.com/problems/two-sum/">Two sum</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
 <div class="outline-text-3" id="text-2-1">
 </div>
-<div id="outline-container-org42d723d" class="outline-4">
-<h4 id="org42d723d"><span class="section-number-4">2.1.1.</span> Description</h4>
+<div id="outline-container-org76db7d2" class="outline-4">
+<h4 id="org76db7d2"><span class="section-number-4">2.1.1.</span> Description</h4>
 <div class="outline-text-4" id="text-2-1-1">
 <p>
 Given an array of integers <code>nums</code> and an integer <code>target</code>, return indices of the two numbers such that they add up to <code>target</code>.
@@ -5948,7 +6544,7 @@ You can return the answer in any order.
 <p>
 <b>Example 1:</b>
 </p>
-<pre class="example" id="org3cec503">
+<pre class="example" id="org78e9271">
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
@@ -5957,7 +6553,7 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 <p>
 <b>Example 2:</b>
 </p>
-<pre class="example" id="org2b980fc">
+<pre class="example" id="org5ae27a7">
 Input: nums = [3,2,4], target = 6
 Output: [1,2]
 </pre>
@@ -5965,7 +6561,7 @@ Output: [1,2]
 <p>
 <b>Example 3:</b>
 </p>
-<pre class="example" id="org568b39b">
+<pre class="example" id="org8959dc3">
 Output: [0,1]
 </pre>
 
@@ -5989,8 +6585,8 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 </p>
 </div>
 </div>
-<div id="outline-container-org5c6e30b" class="outline-4">
-<h4 id="org5c6e30b"><span class="section-number-4">2.1.2.</span> Solution</h4>
+<div id="outline-container-orgc54caed" class="outline-4">
+<h4 id="orgc54caed"><span class="section-number-4">2.1.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-1-2">
 <div class="org-src-container">
 <pre class="src src-js"><span class="linenr"> 1: </span><span style="color: #51afef;">const</span> <span style="color: #dcaeea;">twoSum</span> = (nums, target) =&gt; {
@@ -6036,12 +6632,12 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 </div>
 </div>
 
-<div id="outline-container-orgf0274b5" class="outline-3">
-<h3 id="orgf0274b5"><span class="section-number-3">2.2.</span> Valid Parentheses&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
+<div id="outline-container-org146b5b3" class="outline-3">
+<h3 id="org146b5b3"><span class="section-number-3">2.2.</span> Valid Parentheses&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
 <div class="outline-text-3" id="text-2-2">
 </div>
-<div id="outline-container-org9d4d073" class="outline-4">
-<h4 id="org9d4d073"><span class="section-number-4">2.2.1.</span> Description</h4>
+<div id="outline-container-orgdc4682f" class="outline-4">
+<h4 id="orgdc4682f"><span class="section-number-4">2.2.1.</span> Description</h4>
 <div class="outline-text-4" id="text-2-2-1">
 <p>
 Given a string s containing just the characters &rsquo;(&rsquo;, &rsquo;)&rsquo;, &rsquo;{&rsquo;, &rsquo;}&rsquo;, &rsquo;[&rsquo; and &rsquo;]&rsquo;, determine if the input string is valid.
@@ -6090,8 +6686,8 @@ s consists of parentheses only &rsquo;()[]{}&rsquo;.
 </p>
 </div>
 </div>
-<div id="outline-container-orga65369d" class="outline-4">
-<h4 id="orga65369d"><span class="section-number-4">2.2.2.</span> Solution</h4>
+<div id="outline-container-org199b160" class="outline-4">
+<h4 id="org199b160"><span class="section-number-4">2.2.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-2-2">
 <div class="org-src-container">
 <pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #51afef;">def</span> <span style="color: #c678dd;">isValid</span>(s: <span style="color: #c678dd;">str</span>) -&gt; <span style="color: #c678dd;">bool</span>:
@@ -6126,12 +6722,12 @@ True
 </div>
 </div>
 
-<div id="outline-container-org4e0095b" class="outline-3">
-<h3 id="org4e0095b"><span class="section-number-3">2.3.</span> Palindrome Number&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span></span></h3>
+<div id="outline-container-org969e52a" class="outline-3">
+<h3 id="org969e52a"><span class="section-number-3">2.3.</span> Palindrome Number&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span></span></h3>
 <div class="outline-text-3" id="text-2-3">
 </div>
-<div id="outline-container-orgfaa8a67" class="outline-4">
-<h4 id="orgfaa8a67"><span class="section-number-4">2.3.1.</span> Description</h4>
+<div id="outline-container-org6965bb7" class="outline-4">
+<h4 id="org6965bb7"><span class="section-number-4">2.3.1.</span> Description</h4>
 <div class="outline-text-4" id="text-2-3-1">
 <p>
 Given an integer x, return true if x is a palindrome, and false otherwise.
@@ -6141,7 +6737,7 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
 <b>Example 1:</b>
 </p>
 
-<pre class="example" id="orgb2f5e86">
+<pre class="example" id="org7f17a58">
 Input: x = 121
 Output: true
 Explanation: 121 reads as 121 from left to right and from right to left.
@@ -6151,7 +6747,7 @@ Explanation: 121 reads as 121 from left to right and from right to left.
 <b>Example 2:</b>
 </p>
 
-<pre class="example" id="org8f04263">
+<pre class="example" id="org72ba932">
 Input: x = -121
 Output: false
 Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
@@ -6161,7 +6757,7 @@ Explanation: From left to right, it reads -121. From right to left, it becomes 1
 <b>Example 3:</b>
 </p>
 
-<pre class="example" id="org3b0232b">
+<pre class="example" id="org3d4e8b9">
 Input: x = 10
 Output: false
 Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
@@ -6181,8 +6777,8 @@ Follow up: Could you solve it without converting the integer to a string?
 </div>
 </div>
 
-<div id="outline-container-org0da2cc9" class="outline-4">
-<h4 id="org0da2cc9"><span class="section-number-4">2.3.2.</span> Solution</h4>
+<div id="outline-container-orgdd1f6c6" class="outline-4">
+<h4 id="orgdd1f6c6"><span class="section-number-4">2.3.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-3-2">
 <div class="org-src-container">
 <pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #51afef;">def</span> <span style="color: #c678dd;">isPalindrome</span>(x):
@@ -6293,12 +6889,12 @@ false
 </div>
 </div>
 
-<div id="outline-container-org0f5dfc5" class="outline-3">
-<h3 id="org0f5dfc5"><span class="section-number-3">2.4.</span> Move Zeroes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
+<div id="outline-container-org007a936" class="outline-3">
+<h3 id="org007a936"><span class="section-number-3">2.4.</span> Move Zeroes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
 <div class="outline-text-3" id="text-2-4">
 </div>
-<div id="outline-container-org7a07519" class="outline-4">
-<h4 id="org7a07519"><span class="section-number-4">2.4.1.</span> Description</h4>
+<div id="outline-container-orgd5decf7" class="outline-4">
+<h4 id="orgd5decf7"><span class="section-number-4">2.4.1.</span> Description</h4>
 <div class="outline-text-4" id="text-2-4-1">
 <p>
 Given an integer array nums, move all 0&rsquo;s to the end of it while maintaining the relative order of the non-zero elements.
@@ -6313,7 +6909,7 @@ Note that you must do this in-place without making a copy of the array.
 <p>
 <b>Example 1:</b>
 </p>
-<pre class="example" id="orgc809110">
+<pre class="example" id="org770ba6b">
 Input: nums = [0,1,0,3,12]
 Output: [1,3,12,0,0]
 </pre>
@@ -6321,7 +6917,7 @@ Output: [1,3,12,0,0]
 <p>
 <b>Example 2:</b>
 </p>
-<pre class="example" id="org4e941a2">
+<pre class="example" id="org16acd2b">
 Input: nums = [0]
 Output: [0]
 </pre>
@@ -6341,8 +6937,8 @@ Follow up: Could you minimize the total number of operations done?
 </div>
 </div>
 
-<div id="outline-container-orgeace954" class="outline-4">
-<h4 id="orgeace954"><span class="section-number-4">2.4.2.</span> Solution</h4>
+<div id="outline-container-orgc3e29da" class="outline-4">
+<h4 id="orgc3e29da"><span class="section-number-4">2.4.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-4-2">
 <div class="org-src-container">
 <pre class="src src-js"><span style="color: #51afef;">const</span> <span style="color: #dcaeea;">moveZeroes</span> = (nums) =&gt; {
@@ -6368,12 +6964,12 @@ moveZeroes([<span style="color: #da8548; font-weight: bold;">0</span>, <span sty
 </div>
 </div>
 </div>
-<div id="outline-container-org930217b" class="outline-3">
-<h3 id="org930217b"><span class="section-number-3">2.5.</span> Merge Sorted Array&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="easy">easy</span></span></h3>
+<div id="outline-container-org5b58403" class="outline-3">
+<h3 id="org5b58403"><span class="section-number-3">2.5.</span> Merge Sorted Array&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="easy">easy</span></span></h3>
 <div class="outline-text-3" id="text-2-5">
 </div>
-<div id="outline-container-org63c8b10" class="outline-4">
-<h4 id="org63c8b10"><span class="section-number-4">2.5.1.</span> Description</h4>
+<div id="outline-container-org3c61506" class="outline-4">
+<h4 id="org3c61506"><span class="section-number-4">2.5.1.</span> Description</h4>
 <div class="outline-text-4" id="text-2-5-1">
 <p>
 You are given two integer arrays <code>nums1</code> and <code>nums2</code>, sorted in non-decreasing order, and two integers <code>m</code> and <code>n</code>, representing the number of elements in <code>nums1</code> and <code>nums2</code> respectively.
@@ -6390,7 +6986,7 @@ The final sorted array should not be returned by the function, but instead be st
 <p>
 <b>Example 1:</b>
 </p>
-<pre class="example" id="org566c167">
+<pre class="example" id="org6df960a">
 Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
 Output: [1,2,2,3,5,6]
 Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
@@ -6400,7 +6996,7 @@ The result of the merge is [1,2,2,3,5,6] with the underlined elements coming fro
 <p>
 <b>Example 2:</b>
 </p>
-<pre class="example" id="org7140566">
+<pre class="example" id="org12337d2">
 Input: nums1 = [1], m = 1, nums2 = [], n = 0
 Output: [1]
 Explanation: The arrays we are merging are [1] and [].
@@ -6410,7 +7006,7 @@ The result of the merge is [1].
 <p>
 <b>Example 3:</b>
 </p>
-<pre class="example" id="org2895b06">
+<pre class="example" id="org707e604">
 Input: nums1 = [0], m = 0, nums2 = [1], n = 1
 Output: [1]
 Explanation: The arrays we are merging are [] and [1].
@@ -6436,8 +7032,8 @@ Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 </div>
 </div>
 
-<div id="outline-container-orgc956dde" class="outline-4">
-<h4 id="orgc956dde"><span class="section-number-4">2.5.2.</span> Solution</h4>
+<div id="outline-container-org03f6e57" class="outline-4">
+<h4 id="org03f6e57"><span class="section-number-4">2.5.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-5-2">
 <div class="org-src-container">
 <pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #51afef;">def</span> <span style="color: #c678dd;">merge</span>(nums1, m, nums2, n):
@@ -6473,12 +7069,12 @@ Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 </div>
 </div>
 </div>
-<div id="outline-container-org6115042" class="outline-3">
-<h3 id="org6115042"><span class="section-number-3">2.6.</span> <a href="https://leetcode.com/problems/decode-the-message">Decode the Message</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span></span></h3>
+<div id="outline-container-org10145fc" class="outline-3">
+<h3 id="org10145fc"><span class="section-number-3">2.6.</span> <a href="https://leetcode.com/problems/decode-the-message">Decode the Message</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span></span></h3>
 <div class="outline-text-3" id="text-2-6">
 </div>
-<div id="outline-container-org11eaf45" class="outline-4">
-<h4 id="org11eaf45"><span class="section-number-4">2.6.1.</span> Description</h4>
+<div id="outline-container-org7c8c5c6" class="outline-4">
+<h4 id="org7c8c5c6"><span class="section-number-4">2.6.1.</span> Description</h4>
 <div class="outline-text-4" id="text-2-6-1">
 <p>
 You are given the strings key and message, which represent a cipher key and a secret message, respectively. The steps to decode message are as follows:
@@ -6498,12 +7094,12 @@ Return the decoded message.
 </p>
 
 
-<div id="org85a0886" class="figure">
+<div id="orgba07a57" class="figure">
 <p><img src="img/ex1new4.jpg" alt="ex1new4.jpg" />
 </p>
 </div>
 
-<pre class="example" id="org54d5c16">
+<pre class="example" id="org5980904">
 Input: key = "the quick brown fox jumps over the lazy dog", message = "vkbs bs t suepuv"
 Output: "this is a secret"
 Explanation: The diagram above shows the substitution table.
@@ -6515,7 +7111,7 @@ It is obtained by taking the first appearance of each letter in "the quick brown
 <img src="img/ex2new.jpg" alt="ex2new.jpg" />
 </p>
 
-<pre class="example" id="orgd187805">
+<pre class="example" id="orgdaa0785">
 Input: key = "eljuxhpwnyrdgtqkviszcfmabo", message = "zwx hnfx lqantp mnoeius ycgk vcnjrdb"
 Output: "the five boxing wizards jump quickly"
 Explanation: The diagram above shows the substitution table.
@@ -6535,8 +7131,8 @@ It is obtained by taking the first appearance of each letter in "eljuxhpwnyrdgtq
 </div>
 </div>
 
-<div id="outline-container-orgf97de0e" class="outline-4">
-<h4 id="orgf97de0e"><span class="section-number-4">2.6.2.</span> Solution</h4>
+<div id="outline-container-org4a7dd49" class="outline-4">
+<h4 id="org4a7dd49"><span class="section-number-4">2.6.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-6-2">
 <div class="org-src-container">
 <pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #51afef;">def</span> <span style="color: #c678dd;">decodeMessage</span>(key, message):
@@ -6561,12 +7157,12 @@ this is a secret
 </div>
 </div>
 </div>
-<div id="outline-container-org3f5856f" class="outline-3">
-<h3 id="org3f5856f"><span class="section-number-3">2.7.</span> <a href="https://leetcode.com/problems/pascals-triangle">Pascal&rsquo;s Triangle</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
+<div id="outline-container-org5218246" class="outline-3">
+<h3 id="org5218246"><span class="section-number-3">2.7.</span> <a href="https://leetcode.com/problems/pascals-triangle">Pascal&rsquo;s Triangle</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
 <div class="outline-text-3" id="text-2-7">
 </div>
-<div id="outline-container-orgb365d52" class="outline-4">
-<h4 id="orgb365d52"><span class="section-number-4">2.7.1.</span> Description</h4>
+<div id="outline-container-org8b384a1" class="outline-4">
+<h4 id="org8b384a1"><span class="section-number-4">2.7.1.</span> Description</h4>
 <div class="outline-text-4" id="text-2-7-1">
 <p>
 Given an integer <code>numRows</code>, return the first numRows of <b>Pascal&rsquo;s triangle</b>.
@@ -6580,7 +7176,7 @@ In Pascal&rsquo;s triangle, each number is the sum of the two numbers directly a
 <p>
 <b>Example 1:</b>
 </p>
-<pre class="example" id="org2c8e8f4">
+<pre class="example" id="orgc81cbc4">
 Input: numRows = 5
 Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 </pre>
@@ -6589,7 +7185,7 @@ Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 <b>Example 2:</b>
 </p>
 
-<pre class="example" id="org4ee6c4b">
+<pre class="example" id="org4634bc7">
 
 Input: numRows = 1
 Output: [[1]]
@@ -6605,8 +7201,8 @@ Output: [[1]]
 </p>
 </div>
 </div>
-<div id="outline-container-org22e1f41" class="outline-4">
-<h4 id="org22e1f41"><span class="section-number-4">2.7.2.</span> Solution</h4>
+<div id="outline-container-orgb6cacb1" class="outline-4">
+<h4 id="orgb6cacb1"><span class="section-number-4">2.7.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-7-2">
 <div class="org-src-container">
 <pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #51afef;">def</span> <span style="color: #c678dd;">generate</span>(numRows):
@@ -6640,12 +7236,12 @@ Output: [[1]]
 </div>
 </div>
 </div>
-<div id="outline-container-org8045c83" class="outline-3">
-<h3 id="org8045c83"><span class="section-number-3">2.8.</span> <a href="https://leetcode.com/problems/roman-to-integer/">Roman to Integer</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
+<div id="outline-container-org86110d1" class="outline-3">
+<h3 id="org86110d1"><span class="section-number-3">2.8.</span> <a href="https://leetcode.com/problems/roman-to-integer/">Roman to Integer</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
 <div class="outline-text-3" id="text-2-8">
 </div>
-<div id="outline-container-org453bf8c" class="outline-4">
-<h4 id="org453bf8c"><span class="section-number-4">2.8.1.</span> Description</h4>
+<div id="outline-container-orga0917f8" class="outline-4">
+<h4 id="orga0917f8"><span class="section-number-4">2.8.1.</span> Description</h4>
 <div class="outline-text-4" id="text-2-8-1">
 <p>
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
@@ -6756,8 +7352,8 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 </p>
 </div>
 </div>
-<div id="outline-container-org4624d1e" class="outline-4">
-<h4 id="org4624d1e"><span class="section-number-4">2.8.2.</span> Solution</h4>
+<div id="outline-container-org48947c5" class="outline-4">
+<h4 id="org48947c5"><span class="section-number-4">2.8.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-8-2">
 <div class="org-src-container">
 <pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #51afef;">def</span> <span style="color: #c678dd;">romanToInt</span>(s):
@@ -6783,12 +7379,12 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 </div>
 </div>
 
-<div id="outline-container-org55c770e" class="outline-3">
-<h3 id="org55c770e"><span class="section-number-3">2.9.</span> <a href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="easy">easy</span></span></h3>
+<div id="outline-container-orged4bcf7" class="outline-3">
+<h3 id="orged4bcf7"><span class="section-number-3">2.9.</span> <a href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="easy">easy</span></span></h3>
 <div class="outline-text-3" id="text-2-9">
 </div>
-<div id="outline-container-orgee51dfa" class="outline-4">
-<h4 id="orgee51dfa"><span class="section-number-4">2.9.1.</span> Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h4>
+<div id="outline-container-org375f774" class="outline-4">
+<h4 id="org375f774"><span class="section-number-4">2.9.1.</span> Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h4>
 <div class="outline-text-4" id="text-2-9-1">
 <p>
 You are given the heads of two sorted linked lists list1 and list2.
@@ -6812,7 +7408,7 @@ Return the head of the merged linked list.
 <b>Example 1:</b>
 </p>
 
-<pre class="example" id="org54d87a9">
+<pre class="example" id="org9717c52">
 Input: list1 = [1,2,4], list2 = [1,3,4]
 Output: [1,1,2,3,4,4]
 </pre>
@@ -6820,7 +7416,7 @@ Output: [1,1,2,3,4,4]
 <p>
 <b>Example 2:</b>
 </p>
-<pre class="example" id="org78b1a15">
+<pre class="example" id="org692202a">
 Input: list1 = [], list2 = []
 Output: []
 </pre>
@@ -6829,7 +7425,7 @@ Output: []
 <b>Example 3:</b>
 </p>
 
-<pre class="example" id="orgff4ead0">
+<pre class="example" id="orgffc6155">
 Input: list1 = [], list2 = [0]
 Output: [0]
 </pre>
@@ -6845,8 +7441,8 @@ Output: [0]
 </ul>
 </div>
 </div>
-<div id="outline-container-org179896b" class="outline-4">
-<h4 id="org179896b"><span class="section-number-4">2.9.2.</span> Solution</h4>
+<div id="outline-container-org7333136" class="outline-4">
+<h4 id="org7333136"><span class="section-number-4">2.9.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-9-2">
 <div class="org-src-container">
 <pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #5B6268;"># </span><span style="color: #5B6268;">Definition for singly-linked list.</span>
@@ -6900,12 +7496,12 @@ Output: [0]
 </div>
 </div>
 </div>
-<div id="outline-container-org2377290" class="outline-3">
-<h3 id="org2377290"><span class="section-number-3">2.10.</span> <a href="https://leetcode.com/problems/merge-two-sorted-lists/">Binary Tree Inorder Traversal</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="easy">easy</span></span></h3>
+<div id="outline-container-org1edb715" class="outline-3">
+<h3 id="org1edb715"><span class="section-number-3">2.10.</span> <a href="https://leetcode.com/problems/merge-two-sorted-lists/">Binary Tree Inorder Traversal</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="easy">easy</span></span></h3>
 <div class="outline-text-3" id="text-2-10">
 </div>
-<div id="outline-container-orge952444" class="outline-4">
-<h4 id="orge952444"><span class="section-number-4">2.10.1.</span> Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h4>
+<div id="outline-container-orgda8b26b" class="outline-4">
+<h4 id="orgda8b26b"><span class="section-number-4">2.10.1.</span> Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h4>
 <div class="outline-text-4" id="text-2-10-1">
 <p>
 Given the <code>root</code> of a binary tree, return <i>the inorder traversal of its nodes&rsquo;</i> values.
@@ -6919,7 +7515,7 @@ Given the <code>root</code> of a binary tree, return <i>the inorder traversal of
 <a href="_20221204_140402screenshot.png">_20221204_140402screenshot.png</a>
 </p>
 
-<pre class="example" id="org9b00381">
+<pre class="example" id="orgbb62392">
 Input: root = [1,null,2,3]
 Output: [1,3,2]
 </pre>
@@ -6927,7 +7523,7 @@ Output: [1,3,2]
 <b>Example 2:</b>
 </p>
 
-<pre class="example" id="orga4f5bd3">
+<pre class="example" id="org032eccb">
 Input: root = []
 Output: []
 </pre>
@@ -6935,7 +7531,7 @@ Output: []
 <b>Example 3:</b>
 </p>
 
-<pre class="example" id="org3e86a3e">
+<pre class="example" id="org0866012">
 Input: root = [1]
 Output: [1]
 </pre>
@@ -6954,8 +7550,8 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 </p>
 </div>
 </div>
-<div id="outline-container-org39fb89e" class="outline-4">
-<h4 id="org39fb89e"><span class="section-number-4">2.10.2.</span> Solution</h4>
+<div id="outline-container-orged891dd" class="outline-4">
+<h4 id="orged891dd"><span class="section-number-4">2.10.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-10-2">
 <ul class="org-ul">
 <li><p>
@@ -7050,12 +7646,12 @@ Iterating method using Stack
 </div>
 </div>
 </div>
-<div id="outline-container-org7edf928" class="outline-3">
-<h3 id="org7edf928"><span class="section-number-3">2.11.</span> <a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/">Convert Sorted Array to Binary Search Tree</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
+<div id="outline-container-org62e3e08" class="outline-3">
+<h3 id="org62e3e08"><span class="section-number-3">2.11.</span> <a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/">Convert Sorted Array to Binary Search Tree</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="easy">easy</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
 <div class="outline-text-3" id="text-2-11">
 </div>
-<div id="outline-container-org3d3a714" class="outline-4">
-<h4 id="org3d3a714"><span class="section-number-4">2.11.1.</span> Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h4>
+<div id="outline-container-org1338a13" class="outline-4">
+<h4 id="org1338a13"><span class="section-number-4">2.11.1.</span> Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h4>
 <div class="outline-text-4" id="text-2-11-1">
 <p>
 Given an integer array nums where the elements are sorted in ascending order, convert it to a height-balanced binary search tree.
@@ -7069,7 +7665,7 @@ Given an integer array nums where the elements are sorted in ascending order, co
 <a href="_20221204_173348screenshot.png">_20221204_173348screenshot.png</a>
 </p>
 
-<pre class="example" id="org7b2fdc3">
+<pre class="example" id="org9d402b1">
 Input: nums = [-10,-3,0,5,9]
 Output: [0,-3,9,-10,null,5]
 Explanation: [0,-10,5,null,-3,null,9] is also accepted:
@@ -7087,7 +7683,7 @@ Explanation: [0,-10,5,null,-3,null,9] is also accepted:
 <a href="_20221204_173412screenshot.png">_20221204_173412screenshot.png</a>
 </p>
 
-<pre class="example" id="org2df7168">
+<pre class="example" id="orgb6fc872">
 Input: nums = [1,3]
 Output: [3,1]
 Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
@@ -7104,8 +7700,8 @@ Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
 </div>
 </div>
 
-<div id="outline-container-org3e9ed63" class="outline-4">
-<h4 id="org3e9ed63"><span class="section-number-4">2.11.2.</span> Solution</h4>
+<div id="outline-container-orge9fae66" class="outline-4">
+<h4 id="orge9fae66"><span class="section-number-4">2.11.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-11-2">
 <div class="org-src-container">
 <pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #5B6268;"># </span><span style="color: #5B6268;">Definition for a binary tree node.</span>
@@ -7144,12 +7740,12 @@ Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
 </div>
 </div>
 </div>
-<div id="outline-container-org360f659" class="outline-3">
-<h3 id="org360f659"><span class="section-number-3">2.12.</span> <a href="https://leetcode.com/problems/permutations/">Permutations</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="medium">medium</span></span></h3>
+<div id="outline-container-org69883fc" class="outline-3">
+<h3 id="org69883fc"><span class="section-number-3">2.12.</span> <a href="https://leetcode.com/problems/permutations/">Permutations</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="medium">medium</span></span></h3>
 <div class="outline-text-3" id="text-2-12">
 </div>
-<div id="outline-container-org0e3b933" class="outline-4">
-<h4 id="org0e3b933"><span class="section-number-4">2.12.1.</span> Description</h4>
+<div id="outline-container-org1b02b5f" class="outline-4">
+<h4 id="org1b02b5f"><span class="section-number-4">2.12.1.</span> Description</h4>
 <div class="outline-text-4" id="text-2-12-1">
 <p>
 Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
@@ -7159,7 +7755,7 @@ Given an array nums of distinct integers, return all the possible permutations. 
 Example 1:
 </p>
 
-<pre class="example" id="org9a45ad1">
+<pre class="example" id="orgce97525">
 Input: nums = [1,2,3]
 Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
 </pre>
@@ -7168,7 +7764,7 @@ Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
 Example 2:
 </p>
 
-<pre class="example" id="org3184289">
+<pre class="example" id="orgcdfb0d1">
 Input: nums = [0,1]
 Output: [[0,1],[1,0]]
 </pre>
@@ -7177,10 +7773,10 @@ Output: [[0,1],[1,0]]
 Example 3:
 </p>
 
-<p>
+<pre class="example" id="orgf7b3cb2">
 Input: nums = [1]
-Output: <code>[[1]]</code>
-</p>
+Output: =[[1]]=
+</pre>
 
 <p>
 Constraints:
@@ -7193,8 +7789,8 @@ Constraints:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbdcd371" class="outline-4">
-<h4 id="orgbdcd371"><span class="section-number-4">2.12.2.</span> Solution</h4>
+<div id="outline-container-org488bf87" class="outline-4">
+<h4 id="org488bf87"><span class="section-number-4">2.12.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-12-2">
 <div class="org-src-container">
 <pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #51afef;">def</span> <span style="color: #c678dd;">permute</span>(nums):
@@ -7257,12 +7853,12 @@ Constraints:
 </div>
 </div>
 </div>
-<div id="outline-container-org1ccb836" class="outline-3">
-<h3 id="org1ccb836"><span class="section-number-3">2.13.</span> <a href="https://leetcode.com/problems/rotate-image/">Rotate Image</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="medium">medium</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
+<div id="outline-container-org3e54fd5" class="outline-3">
+<h3 id="org3e54fd5"><span class="section-number-3">2.13.</span> <a href="https://leetcode.com/problems/rotate-image/">Rotate Image</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="medium">medium</span>&#xa0;<span class="top_interview_question">top_interview_question</span></span></h3>
 <div class="outline-text-3" id="text-2-13">
 </div>
-<div id="outline-container-org254fafe" class="outline-4">
-<h4 id="org254fafe"><span class="section-number-4">2.13.1.</span> Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h4>
+<div id="outline-container-org8e4316e" class="outline-4">
+<h4 id="org8e4316e"><span class="section-number-4">2.13.1.</span> Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h4>
 <div class="outline-text-4" id="text-2-13-1">
 <p>
 You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise).
@@ -7280,7 +7876,7 @@ Example 1:
 <a href="_20221204_212815screenshot.png">_20221204_212815screenshot.png</a>
 </p>
 
-<pre class="example" id="orgf7d072e">
+<pre class="example" id="orgeae4c0d">
 Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
 Output: [[7,4,1],[8,5,2],[9,6,3]]
 </pre>
@@ -7293,7 +7889,7 @@ Example 2:
 <a href="_20221204_212821screenshot.png">_20221204_212821screenshot.png</a>
 </p>
 
-<pre class="example" id="orgc87838b">
+<pre class="example" id="org01d1f56">
 Input: matrix = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]
 Output: [[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]
 </pre>
@@ -7311,8 +7907,8 @@ Constraints:
 </ul>
 </div>
 </div>
-<div id="outline-container-org028869f" class="outline-4">
-<h4 id="org028869f"><span class="section-number-4">2.13.2.</span> Solution</h4>
+<div id="outline-container-orgc5b20d2" class="outline-4">
+<h4 id="orgc5b20d2"><span class="section-number-4">2.13.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-13-2">
 <div class="org-src-container">
 <pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #51afef;">import</span> math
@@ -7371,12 +7967,12 @@ Constraints:
 </div>
 </div>
 </div>
-<div id="outline-container-orgac19849" class="outline-3">
-<h3 id="orgac19849"><span class="section-number-3">2.14.</span> <a href="https://leetcode.com/problems/container-with-most-water/">Container With Most Water</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="medium">medium</span></span></h3>
+<div id="outline-container-org0bff711" class="outline-3">
+<h3 id="org0bff711"><span class="section-number-3">2.14.</span> <a href="https://leetcode.com/problems/container-with-most-water/">Container With Most Water</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="top_interview_question">top_interview_question</span>&#xa0;<span class="medium">medium</span></span></h3>
 <div class="outline-text-3" id="text-2-14">
 </div>
-<div id="outline-container-org0d14217" class="outline-4">
-<h4 id="org0d14217"><span class="section-number-4">2.14.1.</span> Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h4>
+<div id="outline-container-org116900e" class="outline-4">
+<h4 id="org116900e"><span class="section-number-4">2.14.1.</span> Description&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h4>
 <div class="outline-text-4" id="text-2-14-1">
 <p>
 You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the i<sup>th</sup> line are <code>(i, 0)</code> and <code>(i, height[i])</code>.
@@ -7402,7 +7998,7 @@ Notice that you may not slant the container.
 <a href="_20221208_195959screenshot.png">_20221208_195959screenshot.png</a>
 </p>
 
-<pre class="example" id="orgbad0934">
+<pre class="example" id="org6042c3c">
 Input: height = [1,8,6,2,5,4,8,3,7]
 Output: 49
 Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
@@ -7429,8 +8025,8 @@ Output: 1
 </ul>
 </div>
 </div>
-<div id="outline-container-orga1e1a93" class="outline-4">
-<h4 id="orga1e1a93"><span class="section-number-4">2.14.2.</span> Solution</h4>
+<div id="outline-container-org3ffc978" class="outline-4">
+<h4 id="org3ffc978"><span class="section-number-4">2.14.2.</span> Solution</h4>
 <div class="outline-text-4" id="text-2-14-2">
 <div class="org-src-container">
 <pre class="src src-python"><span class="linenr"> 1: </span><span style="color: #51afef;">def</span> <span style="color: #c678dd;">maxArea</span>(height):
@@ -7469,7 +8065,7 @@ Output: 1
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: TurboHolmes</p>
-<p class="date">Created: 2022-12-10 Sat 19:59</p>
+<p class="date">Created: 2022-12-11 Sun 13:40</p>
 </div>
 </body>
 </html>
